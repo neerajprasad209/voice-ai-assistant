@@ -5,3 +5,4 @@ tavily-python
 elevenlabs
 requests
 sarvamai
+langchain-core

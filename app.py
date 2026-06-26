@@ -6,13 +6,11 @@ from src.search import format_search_context, search_web
 from src.speech_to_text import transcribe_audio
 from src.tts import synthesize_speech
 from src.utils import check_api_connectivity, get_configuration_status
+from src.chat_history import ChatHistoryManager
 
 
 STATE_DEFAULTS = {
-    "latest_transcript": "",
-    "assistant_query_input": "",
-    "assistant_query": "",
-    "assistant_answer": "",
+    "chat_history": ChatHistoryManager(),
     "assistant_audio": None,
     "tts_error": None,
     "search_results": [],
@@ -57,47 +55,97 @@ def render_status(label: str, ok: bool, message: str) -> None:
 
 
 def reset_assistant_state() -> None:
-    """Clear the interactive assistant state."""
-    for key, value in STATE_DEFAULTS.items():
-        st.session_state[key] = value
+
+    st.session_state["chat_history"] = ChatHistoryManager()
+    st.session_state["assistant_audio"] = None
+    st.session_state["tts_error"] = None
+    st.session_state["search_results"] = []
+    st.session_state["search_used"] = False
+    st.session_state["search_reason"] = ""
+    st.session_state["processing_error"] = ""
 
 
 def run_assistant(query: str) -> None:
-    """Run guardrails, search decision, reasoning, and text-to-speech for a query."""
+
+    history = st.session_state["chat_history"]
+
     guardrail_result = apply_guardrails(query)
-    st.session_state["assistant_query"] = query
+
     st.session_state["processing_error"] = ""
 
     if not guardrail_result.allowed:
-        st.session_state["assistant_answer"] = guardrail_result.text
+
+        history.add_human_message(query)
+        history.add_ai_message(guardrail_result.text)
+
         st.session_state["search_results"] = []
         st.session_state["assistant_audio"] = None
         st.session_state["tts_error"] = None
         st.session_state["search_used"] = False
         st.session_state["search_reason"] = "Blocked by guardrails."
+
         return
 
-    search_decision = decide_search_requirement(guardrail_result.text)
+    # -----------------------------
+    # Store Human Message
+    # -----------------------------
+
+    history.add_human_message(guardrail_result.text)
+
+    # -----------------------------
+    # Search Decision
+    # -----------------------------
+
+    search_decision = decide_search_requirement(
+        guardrail_result.text
+    )
+
     st.session_state["search_used"] = search_decision.should_search
     st.session_state["search_reason"] = search_decision.reason
 
     search_results = []
+
     if search_decision.should_search:
-        search_results = search_web(guardrail_result.text)
+
+        search_results = search_web(
+            guardrail_result.text
+        )
+
         answer = generate_response(
-            guardrail_result.text,
+            history.get_messages(),
             format_search_context(search_results),
         )
+
     else:
-        answer = generate_direct_response(guardrail_result.text)
+
+        answer = generate_direct_response(
+            history.get_messages()
+        )
+
+    # -----------------------------
+    # Store AI Message
+    # -----------------------------
+
+    history.add_ai_message(answer)
 
     st.session_state["search_results"] = search_results
-    st.session_state["assistant_answer"] = answer
+
+    # -----------------------------
+    # ElevenLabs reads ONLY AI
+    # -----------------------------
+
+    last_ai = history.get_last_ai_message()
 
     try:
-        st.session_state["assistant_audio"] = synthesize_speech(answer)
+
+        st.session_state["assistant_audio"] = synthesize_speech(
+            last_ai.content
+        )
+
         st.session_state["tts_error"] = None
+
     except Exception as exc:
+
         st.session_state["assistant_audio"] = None
         st.session_state["tts_error"] = str(exc)
 
@@ -108,9 +156,6 @@ def main() -> None:
     st.title("Voice AI Assistant")
     st.caption("Phases 2 to 4: speech input, live web search, Groq reasoning, and ElevenLabs speech output.")
 
-    if st.button("Reset", type="secondary"):
-        reset_assistant_state()
-        st.rerun()
 
     st.subheader("API Configuration")
     for status in get_configuration_status():
@@ -124,20 +169,21 @@ def main() -> None:
     if audio_value is not None:
         st.audio(audio_value)
 
-        button_label = "Transcribe Recording" if audio_source == "microphone" else "Transcribe Audio"
+        button_label = "Generate Audio" if audio_source == "microphone" else "Transcribe Audio"
         if st.button(button_label, type="primary"):
-            with st.spinner("Transcribing audio and preparing a response..."):
+            with st.spinner("Generating the Response..."):
                 try:
                     transcript = transcribe_audio(
                         audio_value.getvalue(),
                         filename=audio_value.name or "recording.wav",
                     )
-                    st.session_state["latest_transcript"] = transcript
-                    st.session_state["assistant_query_input"] = transcript
+
                     run_assistant(transcript)
+
                 except Exception as exc:
                     st.session_state["processing_error"] = str(exc)
                     st.error(f"Transcription or assistant pipeline failed: {exc}")
+
                 else:
                     st.success("Transcription complete with Sarvam STT.")
 
@@ -186,6 +232,10 @@ def main() -> None:
     processing_error = st.session_state.get("processing_error")
     if processing_error:
         st.warning(f"Last processing error: {processing_error}")
+
+    if st.button("Reset", type="secondary"):
+        reset_assistant_state()
+        st.rerun()
 
     # st.subheader("Connectivity")
     # if st.button("Check API Connectivity"):
