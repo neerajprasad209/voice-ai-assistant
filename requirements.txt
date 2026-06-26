@@ -1,0 +1,7 @@
+streamlit
+python-dotenv
+groq
+tavily-python
+elevenlabs
+requests
+sarvamai
