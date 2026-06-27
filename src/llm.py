@@ -231,7 +231,7 @@ Rules:
 - If the answer cannot be found in the search results,
   clearly say so.
 - Previous conversation can be used for context.
-- Keep the response under 100 words.
+- Keep the response under 200 words.
 
 Search Results:
 

@@ -1,0 +1,154 @@
+2026-06-26 20:31:00 | INFO     | app:main:250 | Starting Voice AI Assistant application.
+2026-06-26 20:31:00 | INFO     | app:main:256 | Initializing Streamlit session.
+2026-06-26 20:31:00 | INFO     | app:initialize_state:32 | Initializing Streamlit session state.
+2026-06-26 20:31:00 | SUCCESS  | app:initialize_state:38 | Session state initialized successfully.
+2026-06-26 20:31:00 | SUCCESS  | app:main:260 | Session initialized successfully.
+2026-06-26 20:31:00 | INFO     | app:main:268 | Rendering API configuration.
+2026-06-26 20:31:00 | INFO     | app:render_status:102 | Sarvam STT: Configured
+2026-06-26 20:31:00 | INFO     | app:render_status:102 | Groq LLM: Configured
+2026-06-26 20:31:00 | INFO     | app:render_status:102 | Tavily: Configured
+2026-06-26 20:31:00 | INFO     | app:render_status:102 | ElevenLabs: Configured
+2026-06-26 20:31:00 | SUCCESS  | app:main:279 | API configuration rendered successfully.
+2026-06-26 20:31:00 | INFO     | app:main:287 | Initializing audio source.
+2026-06-26 20:31:00 | INFO     | app:get_audio_source:48 | Detecting available audio input source.
+2026-06-26 20:31:00 | INFO     | app:get_audio_source:54 | Using Streamlit microphone input.
+2026-06-26 20:31:00 | INFO     | app:main:351 | Rendering search decision.
+2026-06-26 20:31:00 | INFO     | app:main:367 | Rendering conversation history.
+2026-06-26 20:31:00 | INFO     | app:main:387 | Rendering search results.
+2026-06-26 20:31:00 | INFO     | app:main:415 | Rendering audio response.
+2026-06-26 20:31:00 | SUCCESS  | app:main:475 | Voice AI Assistant rendered successfully.
+2026-06-26 20:31:25 | INFO     | app:main:250 | Starting Voice AI Assistant application.
+2026-06-26 20:31:25 | INFO     | app:main:256 | Initializing Streamlit session.
+2026-06-26 20:31:25 | INFO     | app:initialize_state:32 | Initializing Streamlit session state.
+2026-06-26 20:31:25 | SUCCESS  | app:initialize_state:38 | Session state initialized successfully.
+2026-06-26 20:31:25 | SUCCESS  | app:main:260 | Session initialized successfully.
+2026-06-26 20:31:25 | INFO     | app:main:268 | Rendering API configuration.
+2026-06-26 20:31:25 | INFO     | app:render_status:102 | Sarvam STT: Configured
+2026-06-26 20:31:25 | INFO     | app:render_status:102 | Groq LLM: Configured
+2026-06-26 20:31:25 | INFO     | app:render_status:102 | Tavily: Configured
+2026-06-26 20:31:25 | INFO     | app:render_status:102 | ElevenLabs: Configured
+2026-06-26 20:31:25 | SUCCESS  | app:main:279 | API configuration rendered successfully.
+2026-06-26 20:31:25 | INFO     | app:main:287 | Initializing audio source.
+2026-06-26 20:31:25 | INFO     | app:get_audio_source:48 | Detecting available audio input source.
+2026-06-26 20:31:25 | INFO     | app:get_audio_source:54 | Using Streamlit microphone input.
+2026-06-26 20:31:25 | INFO     | app:main:293 | Audio received from user.
+2026-06-26 20:31:26 | INFO     | app:main:351 | Rendering search decision.
+2026-06-26 20:31:26 | INFO     | app:main:367 | Rendering conversation history.
+2026-06-26 20:31:26 | INFO     | app:main:387 | Rendering search results.
+2026-06-26 20:31:26 | INFO     | app:main:415 | Rendering audio response.
+2026-06-26 20:31:26 | SUCCESS  | app:main:475 | Voice AI Assistant rendered successfully.
+2026-06-26 20:31:32 | INFO     | app:main:250 | Starting Voice AI Assistant application.
+2026-06-26 20:31:32 | INFO     | app:main:256 | Initializing Streamlit session.
+2026-06-26 20:31:32 | INFO     | app:initialize_state:32 | Initializing Streamlit session state.
+2026-06-26 20:31:32 | SUCCESS  | app:initialize_state:38 | Session state initialized successfully.
+2026-06-26 20:31:32 | SUCCESS  | app:main:260 | Session initialized successfully.
+2026-06-26 20:31:32 | INFO     | app:main:268 | Rendering API configuration.
+2026-06-26 20:31:32 | INFO     | app:render_status:102 | Sarvam STT: Configured
+2026-06-26 20:31:32 | INFO     | app:render_status:102 | Groq LLM: Configured
+2026-06-26 20:31:32 | INFO     | app:render_status:102 | Tavily: Configured
+2026-06-26 20:31:32 | INFO     | app:render_status:102 | ElevenLabs: Configured
+2026-06-26 20:31:32 | SUCCESS  | app:main:279 | API configuration rendered successfully.
+2026-06-26 20:31:32 | INFO     | app:main:287 | Initializing audio source.
+2026-06-26 20:31:32 | INFO     | app:get_audio_source:48 | Detecting available audio input source.
+2026-06-26 20:31:32 | INFO     | app:get_audio_source:54 | Using Streamlit microphone input.
+2026-06-26 20:31:32 | INFO     | app:main:293 | Audio received from user.
+2026-06-26 20:31:32 | INFO     | app:main:305 | User initiated assistant pipeline.
+2026-06-26 20:31:32 | INFO     | app:main:311 | Starting speech transcription.
+2026-06-26 20:31:33 | SUCCESS  | app:main:319 | Speech transcription completed successfully.
+2026-06-26 20:31:33 | INFO     | app:main:323 | Executing assistant pipeline.
+2026-06-26 20:31:33 | INFO     | app:run_assistant:137 | Starting assistant pipeline.
+2026-06-26 20:31:33 | INFO     | app:run_assistant:143 | Applying guardrails.
+2026-06-26 20:31:33 | INFO     | app:run_assistant:166 | Adding HumanMessage to conversation history.
+2026-06-26 20:31:33 | INFO     | app:run_assistant:172 | Running search decision model.
+2026-06-26 20:31:34 | INFO     | app:run_assistant:181 | Search Decision: %s | Reason: %s
+2026-06-26 20:31:34 | INFO     | app:run_assistant:191 | Performing Tavily web search.
+2026-06-26 20:31:38 | SUCCESS  | app:run_assistant:197 | Retrieved 5 search results.
+2026-06-26 20:31:38 | INFO     | app:run_assistant:201 | Generating grounded response using search context.
+2026-06-26 20:31:39 | SUCCESS  | app:run_assistant:216 | LLM response generated successfully.
+2026-06-26 20:31:39 | INFO     | app:run_assistant:218 | Adding AIMessage to conversation history.
+2026-06-26 20:31:39 | INFO     | app:run_assistant:224 | Generating speech using ElevenLabs.
+2026-06-26 20:31:42 | SUCCESS  | app:run_assistant:234 | Speech generated successfully.
+2026-06-26 20:31:42 | SUCCESS  | app:run_assistant:236 | Assistant pipeline completed successfully.
+2026-06-26 20:31:42 | SUCCESS  | app:main:329 | Assistant pipeline executed successfully.
+2026-06-26 20:31:42 | INFO     | app:main:351 | Rendering search decision.
+2026-06-26 20:31:42 | INFO     | app:main:367 | Rendering conversation history.
+2026-06-26 20:31:42 | INFO     | app:main:387 | Rendering search results.
+2026-06-26 20:31:42 | INFO     | app:main:415 | Rendering audio response.
+2026-06-26 20:31:42 | SUCCESS  | app:main:475 | Voice AI Assistant rendered successfully.
+2026-06-26 20:32:20 | INFO     | app:main:250 | Starting Voice AI Assistant application.
+2026-06-26 20:32:20 | INFO     | app:main:256 | Initializing Streamlit session.
+2026-06-26 20:32:20 | INFO     | app:initialize_state:32 | Initializing Streamlit session state.
+2026-06-26 20:32:20 | SUCCESS  | app:initialize_state:38 | Session state initialized successfully.
+2026-06-26 20:32:20 | SUCCESS  | app:main:260 | Session initialized successfully.
+2026-06-26 20:32:20 | INFO     | app:main:268 | Rendering API configuration.
+2026-06-26 20:32:20 | INFO     | app:render_status:102 | Sarvam STT: Configured
+2026-06-26 20:32:20 | INFO     | app:render_status:102 | Groq LLM: Configured
+2026-06-26 20:32:20 | INFO     | app:render_status:102 | Tavily: Configured
+2026-06-26 20:32:20 | INFO     | app:render_status:102 | ElevenLabs: Configured
+2026-06-26 20:32:20 | SUCCESS  | app:main:279 | API configuration rendered successfully.
+2026-06-26 20:32:20 | INFO     | app:main:287 | Initializing audio source.
+2026-06-26 20:32:20 | INFO     | app:get_audio_source:48 | Detecting available audio input source.
+2026-06-26 20:32:20 | INFO     | app:get_audio_source:54 | Using Streamlit microphone input.
+2026-06-26 20:32:20 | INFO     | app:main:351 | Rendering search decision.
+2026-06-26 20:32:20 | INFO     | app:main:367 | Rendering conversation history.
+2026-06-26 20:32:20 | INFO     | app:main:387 | Rendering search results.
+2026-06-26 20:32:20 | INFO     | app:main:415 | Rendering audio response.
+2026-06-26 20:32:20 | SUCCESS  | app:main:475 | Voice AI Assistant rendered successfully.
+2026-06-26 20:32:31 | INFO     | app:main:250 | Starting Voice AI Assistant application.
+2026-06-26 20:32:31 | INFO     | app:main:256 | Initializing Streamlit session.
+2026-06-26 20:32:31 | INFO     | app:initialize_state:32 | Initializing Streamlit session state.
+2026-06-26 20:32:31 | SUCCESS  | app:initialize_state:38 | Session state initialized successfully.
+2026-06-26 20:32:31 | SUCCESS  | app:main:260 | Session initialized successfully.
+2026-06-26 20:32:31 | INFO     | app:main:268 | Rendering API configuration.
+2026-06-26 20:32:31 | INFO     | app:render_status:102 | Sarvam STT: Configured
+2026-06-26 20:32:31 | INFO     | app:render_status:102 | Groq LLM: Configured
+2026-06-26 20:32:31 | INFO     | app:render_status:102 | Tavily: Configured
+2026-06-26 20:32:31 | INFO     | app:render_status:102 | ElevenLabs: Configured
+2026-06-26 20:32:32 | SUCCESS  | app:main:279 | API configuration rendered successfully.
+2026-06-26 20:32:32 | INFO     | app:main:287 | Initializing audio source.
+2026-06-26 20:32:32 | INFO     | app:get_audio_source:48 | Detecting available audio input source.
+2026-06-26 20:32:32 | INFO     | app:get_audio_source:54 | Using Streamlit microphone input.
+2026-06-26 20:32:32 | INFO     | app:main:293 | Audio received from user.
+2026-06-26 20:32:32 | INFO     | app:main:351 | Rendering search decision.
+2026-06-26 20:32:32 | INFO     | app:main:367 | Rendering conversation history.
+2026-06-26 20:32:32 | INFO     | app:main:387 | Rendering search results.
+2026-06-26 20:32:32 | INFO     | app:main:415 | Rendering audio response.
+2026-06-26 20:32:32 | SUCCESS  | app:main:475 | Voice AI Assistant rendered successfully.
+2026-06-26 20:32:35 | INFO     | app:main:250 | Starting Voice AI Assistant application.
+2026-06-26 20:32:35 | INFO     | app:main:256 | Initializing Streamlit session.
+2026-06-26 20:32:35 | INFO     | app:initialize_state:32 | Initializing Streamlit session state.
+2026-06-26 20:32:35 | SUCCESS  | app:initialize_state:38 | Session state initialized successfully.
+2026-06-26 20:32:35 | SUCCESS  | app:main:260 | Session initialized successfully.
+2026-06-26 20:32:35 | INFO     | app:main:268 | Rendering API configuration.
+2026-06-26 20:32:35 | INFO     | app:render_status:102 | Sarvam STT: Configured
+2026-06-26 20:32:35 | INFO     | app:render_status:102 | Groq LLM: Configured
+2026-06-26 20:32:35 | INFO     | app:render_status:102 | Tavily: Configured
+2026-06-26 20:32:35 | INFO     | app:render_status:102 | ElevenLabs: Configured
+2026-06-26 20:32:35 | SUCCESS  | app:main:279 | API configuration rendered successfully.
+2026-06-26 20:32:35 | INFO     | app:main:287 | Initializing audio source.
+2026-06-26 20:32:35 | INFO     | app:get_audio_source:48 | Detecting available audio input source.
+2026-06-26 20:32:35 | INFO     | app:get_audio_source:54 | Using Streamlit microphone input.
+2026-06-26 20:32:35 | INFO     | app:main:293 | Audio received from user.
+2026-06-26 20:32:35 | INFO     | app:main:305 | User initiated assistant pipeline.
+2026-06-26 20:32:35 | INFO     | app:main:311 | Starting speech transcription.
+2026-06-26 20:32:36 | SUCCESS  | app:main:319 | Speech transcription completed successfully.
+2026-06-26 20:32:36 | INFO     | app:main:323 | Executing assistant pipeline.
+2026-06-26 20:32:36 | INFO     | app:run_assistant:137 | Starting assistant pipeline.
+2026-06-26 20:32:36 | INFO     | app:run_assistant:143 | Applying guardrails.
+2026-06-26 20:32:36 | INFO     | app:run_assistant:166 | Adding HumanMessage to conversation history.
+2026-06-26 20:32:36 | INFO     | app:run_assistant:172 | Running search decision model.
+2026-06-26 20:32:37 | INFO     | app:run_assistant:181 | Search Decision: %s | Reason: %s
+2026-06-26 20:32:37 | INFO     | app:run_assistant:191 | Performing Tavily web search.
+2026-06-26 20:32:40 | SUCCESS  | app:run_assistant:197 | Retrieved 5 search results.
+2026-06-26 20:32:40 | INFO     | app:run_assistant:201 | Generating grounded response using search context.
+2026-06-26 20:32:41 | SUCCESS  | app:run_assistant:216 | LLM response generated successfully.
+2026-06-26 20:32:41 | INFO     | app:run_assistant:218 | Adding AIMessage to conversation history.
+2026-06-26 20:32:41 | INFO     | app:run_assistant:224 | Generating speech using ElevenLabs.
+2026-06-26 20:32:44 | SUCCESS  | app:run_assistant:234 | Speech generated successfully.
+2026-06-26 20:32:44 | SUCCESS  | app:run_assistant:236 | Assistant pipeline completed successfully.
+2026-06-26 20:32:44 | SUCCESS  | app:main:329 | Assistant pipeline executed successfully.
+2026-06-26 20:32:44 | INFO     | app:main:351 | Rendering search decision.
+2026-06-26 20:32:44 | INFO     | app:main:367 | Rendering conversation history.
+2026-06-26 20:32:44 | INFO     | app:main:387 | Rendering search results.
+2026-06-26 20:32:44 | INFO     | app:main:415 | Rendering audio response.
+2026-06-26 20:32:44 | SUCCESS  | app:main:475 | Voice AI Assistant rendered successfully.
