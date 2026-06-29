@@ -12,6 +12,7 @@ REQUIRED_API_KEYS = {
     "Groq LLM": "GROQ_API_KEY",
     "Tavily": "TAVILY_API_KEY",
     "ElevenLabs": "ELEVENLABS_API_KEY",
+    "Avatar": "TAVUS_API_KEY",
 }
 
 

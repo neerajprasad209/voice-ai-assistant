@@ -7,3 +7,4 @@ requests
 sarvamai
 langchain-core
 loguru
+httpx

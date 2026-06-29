@@ -152,3 +152,1515 @@
 2026-06-26 20:32:44 | INFO     | app:main:387 | Rendering search results.
 2026-06-26 20:32:44 | INFO     | app:main:415 | Rendering audio response.
 2026-06-26 20:32:44 | SUCCESS  | app:main:475 | Voice AI Assistant rendered successfully.
+2026-06-29 16:27:50 | INFO     | app:main:261 | Starting Voice AI Assistant application.
+2026-06-29 16:27:50 | INFO     | app:main:266 | Initializing Streamlit session.
+2026-06-29 16:27:50 | INFO     | app:initialize_state:35 | Initializing Streamlit session state.
+2026-06-29 16:27:50 | SUCCESS  | app:initialize_state:41 | Session state initialized successfully.
+2026-06-29 16:27:50 | SUCCESS  | app:main:268 | Session initialized successfully.
+2026-06-29 16:27:51 | INFO     | app:main:270 | Rendering API configuration.
+2026-06-29 16:27:51 | INFO     | app:render_status:105 | Sarvam STT: Configured
+2026-06-29 16:27:51 | INFO     | app:render_status:105 | Groq LLM: Configured
+2026-06-29 16:27:51 | INFO     | app:render_status:105 | Tavily: Configured
+2026-06-29 16:27:51 | INFO     | app:render_status:105 | ElevenLabs: Configured
+2026-06-29 16:27:51 | INFO     | app:render_status:105 | Avatar: Configured
+2026-06-29 16:27:51 | SUCCESS  | app:main:279 | API configuration rendered successfully.
+2026-06-29 16:27:51 | INFO     | app:main:287 | Initializing audio source.
+2026-06-29 16:27:51 | INFO     | app:get_audio_source:51 | Detecting available audio input source.
+2026-06-29 16:27:51 | INFO     | app:get_audio_source:57 | Using Streamlit microphone input.
+2026-06-29 16:27:51 | INFO     | app:main:351 | Rendering search decision.
+2026-06-29 16:27:51 | INFO     | app:main:367 | Rendering conversation history.
+2026-06-29 16:27:51 | INFO     | app:main:387 | Rendering search results.
+2026-06-29 16:27:51 | INFO     | app:main:415 | Rendering audio response.
+2026-06-29 16:27:51 | SUCCESS  | app:main:475 | Voice AI Assistant rendered successfully.
+2026-06-29 16:28:52 | INFO     | app:main:261 | Starting Voice AI Assistant application.
+2026-06-29 16:28:52 | INFO     | app:main:266 | Initializing Streamlit session.
+2026-06-29 16:28:52 | INFO     | app:initialize_state:35 | Initializing Streamlit session state.
+2026-06-29 16:28:52 | SUCCESS  | app:initialize_state:41 | Session state initialized successfully.
+2026-06-29 16:28:52 | SUCCESS  | app:main:268 | Session initialized successfully.
+2026-06-29 16:28:52 | INFO     | app:main:270 | Rendering API configuration.
+2026-06-29 16:28:52 | INFO     | app:render_status:105 | Sarvam STT: Configured
+2026-06-29 16:28:52 | INFO     | app:render_status:105 | Groq LLM: Configured
+2026-06-29 16:28:52 | INFO     | app:render_status:105 | Tavily: Configured
+2026-06-29 16:28:52 | INFO     | app:render_status:105 | ElevenLabs: Configured
+2026-06-29 16:28:52 | INFO     | app:render_status:105 | Avatar: Configured
+2026-06-29 16:28:52 | SUCCESS  | app:main:279 | API configuration rendered successfully.
+2026-06-29 16:28:52 | INFO     | app:main:287 | Initializing audio source.
+2026-06-29 16:28:52 | INFO     | app:get_audio_source:51 | Detecting available audio input source.
+2026-06-29 16:28:52 | INFO     | app:get_audio_source:57 | Using Streamlit microphone input.
+2026-06-29 16:28:52 | INFO     | app:main:351 | Rendering search decision.
+2026-06-29 16:28:52 | INFO     | app:main:367 | Rendering conversation history.
+2026-06-29 16:28:52 | INFO     | app:main:387 | Rendering search results.
+2026-06-29 16:28:52 | INFO     | app:main:415 | Rendering audio response.
+2026-06-29 16:28:52 | SUCCESS  | app:main:475 | Voice AI Assistant rendered successfully.
+2026-06-29 16:44:54 | INFO     | app:main:308 | Starting Voice AI Assistant application.
+2026-06-29 16:44:54 | INFO     | app:main:313 | Initializing Streamlit session.
+2026-06-29 16:44:54 | INFO     | app:initialize_state:39 | Initializing Streamlit session state.
+2026-06-29 16:44:54 | SUCCESS  | app:initialize_state:45 | Session state initialized successfully.
+2026-06-29 16:44:54 | SUCCESS  | app:main:315 | Session initialized successfully.
+2026-06-29 16:44:54 | INFO     | app:main:317 | Rendering API configuration.
+2026-06-29 16:44:54 | INFO     | app:render_status:109 | Sarvam STT: Configured
+2026-06-29 16:44:54 | INFO     | app:render_status:109 | Groq LLM: Configured
+2026-06-29 16:44:54 | INFO     | app:render_status:109 | Tavily: Configured
+2026-06-29 16:44:54 | INFO     | app:render_status:109 | ElevenLabs: Configured
+2026-06-29 16:44:54 | INFO     | app:render_status:109 | Avatar: Configured
+2026-06-29 16:44:54 | INFO     | app:render_status:109 | Avatar Replica: Configured
+2026-06-29 16:44:54 | SUCCESS  | app:main:332 | API configuration rendered successfully.
+2026-06-29 16:44:54 | INFO     | app:main:340 | Initializing audio source.
+2026-06-29 16:44:54 | INFO     | app:get_audio_source:55 | Detecting available audio input source.
+2026-06-29 16:44:54 | INFO     | app:get_audio_source:61 | Using Streamlit microphone input.
+2026-06-29 16:44:54 | INFO     | app:main:404 | Rendering search decision.
+2026-06-29 16:44:54 | INFO     | app:main:420 | Rendering conversation history.
+2026-06-29 16:44:54 | INFO     | app:main:440 | Rendering search results.
+2026-06-29 16:44:54 | INFO     | app:main:468 | Rendering audio response.
+2026-06-29 16:44:54 | SUCCESS  | app:main:562 | Voice AI Assistant rendered successfully.
+2026-06-29 16:45:53 | INFO     | app:main:308 | Starting Voice AI Assistant application.
+2026-06-29 16:45:53 | INFO     | app:main:313 | Initializing Streamlit session.
+2026-06-29 16:45:53 | INFO     | app:initialize_state:39 | Initializing Streamlit session state.
+2026-06-29 16:45:53 | SUCCESS  | app:initialize_state:45 | Session state initialized successfully.
+2026-06-29 16:45:53 | SUCCESS  | app:main:315 | Session initialized successfully.
+2026-06-29 16:45:53 | INFO     | app:main:317 | Rendering API configuration.
+2026-06-29 16:45:53 | INFO     | app:render_status:109 | Sarvam STT: Configured
+2026-06-29 16:45:53 | INFO     | app:render_status:109 | Groq LLM: Configured
+2026-06-29 16:45:53 | INFO     | app:render_status:109 | Tavily: Configured
+2026-06-29 16:45:54 | INFO     | app:render_status:109 | ElevenLabs: Configured
+2026-06-29 16:45:54 | INFO     | app:render_status:109 | Avatar: Configured
+2026-06-29 16:45:54 | INFO     | app:render_status:109 | Avatar Replica: Configured
+2026-06-29 16:45:54 | SUCCESS  | app:main:332 | API configuration rendered successfully.
+2026-06-29 16:45:54 | INFO     | app:main:340 | Initializing audio source.
+2026-06-29 16:45:54 | INFO     | app:get_audio_source:55 | Detecting available audio input source.
+2026-06-29 16:45:54 | INFO     | app:get_audio_source:61 | Using Streamlit microphone input.
+2026-06-29 16:45:54 | INFO     | app:main:346 | Audio received from user.
+2026-06-29 16:45:54 | INFO     | app:main:404 | Rendering search decision.
+2026-06-29 16:45:54 | INFO     | app:main:420 | Rendering conversation history.
+2026-06-29 16:45:54 | INFO     | app:main:440 | Rendering search results.
+2026-06-29 16:45:54 | INFO     | app:main:468 | Rendering audio response.
+2026-06-29 16:45:54 | SUCCESS  | app:main:562 | Voice AI Assistant rendered successfully.
+2026-06-29 16:45:57 | INFO     | app:main:308 | Starting Voice AI Assistant application.
+2026-06-29 16:45:57 | INFO     | app:main:313 | Initializing Streamlit session.
+2026-06-29 16:45:57 | INFO     | app:initialize_state:39 | Initializing Streamlit session state.
+2026-06-29 16:45:57 | SUCCESS  | app:initialize_state:45 | Session state initialized successfully.
+2026-06-29 16:45:57 | SUCCESS  | app:main:315 | Session initialized successfully.
+2026-06-29 16:45:57 | INFO     | app:main:317 | Rendering API configuration.
+2026-06-29 16:45:57 | INFO     | app:render_status:109 | Sarvam STT: Configured
+2026-06-29 16:45:57 | INFO     | app:render_status:109 | Groq LLM: Configured
+2026-06-29 16:45:57 | INFO     | app:render_status:109 | Tavily: Configured
+2026-06-29 16:45:57 | INFO     | app:render_status:109 | ElevenLabs: Configured
+2026-06-29 16:45:57 | INFO     | app:render_status:109 | Avatar: Configured
+2026-06-29 16:45:57 | INFO     | app:render_status:109 | Avatar Replica: Configured
+2026-06-29 16:45:57 | SUCCESS  | app:main:332 | API configuration rendered successfully.
+2026-06-29 16:45:57 | INFO     | app:main:340 | Initializing audio source.
+2026-06-29 16:45:57 | INFO     | app:get_audio_source:55 | Detecting available audio input source.
+2026-06-29 16:45:57 | INFO     | app:get_audio_source:61 | Using Streamlit microphone input.
+2026-06-29 16:45:57 | INFO     | app:main:346 | Audio received from user.
+2026-06-29 16:45:57 | INFO     | app:main:358 | User initiated assistant pipeline.
+2026-06-29 16:45:57 | INFO     | app:main:364 | Starting speech transcription.
+2026-06-29 16:45:58 | SUCCESS  | app:main:372 | Speech transcription completed successfully.
+2026-06-29 16:45:58 | INFO     | app:main:376 | Executing assistant pipeline.
+2026-06-29 16:45:58 | INFO     | app:run_assistant:150 | Starting assistant pipeline.
+2026-06-29 16:45:58 | INFO     | app:run_assistant:156 | Applying guardrails.
+2026-06-29 16:45:58 | INFO     | app:run_assistant:179 | Adding HumanMessage to conversation history.
+2026-06-29 16:45:58 | INFO     | app:run_assistant:185 | Running search decision model.
+2026-06-29 16:45:59 | INFO     | app:run_assistant:194 | Search Decision: %s | Reason: %s
+2026-06-29 16:45:59 | INFO     | app:run_assistant:204 | Performing Tavily web search.
+2026-06-29 16:46:02 | SUCCESS  | app:run_assistant:210 | Retrieved 5 search results.
+2026-06-29 16:46:02 | INFO     | app:run_assistant:214 | Generating grounded response using search context.
+2026-06-29 16:46:04 | SUCCESS  | app:run_assistant:229 | LLM response generated successfully.
+2026-06-29 16:46:04 | INFO     | app:run_assistant:231 | Adding AIMessage to conversation history.
+2026-06-29 16:46:04 | INFO     | app:run_assistant:237 | Generating speech using ElevenLabs.
+2026-06-29 16:46:15 | SUCCESS  | app:run_assistant:254 | Speech generated successfully.
+2026-06-29 16:46:15 | INFO     | app:run_assistant:264 | Generating photorealistic avatar response.
+2026-06-29 16:46:15 | INFO     | avatar:create_avatar_video:82 | Creating Tavus avatar video request.
+2026-06-29 16:46:20 | SUCCESS  | avatar:create_avatar_video:97 | Avatar video request created successfully: 01bb0db97f
+2026-06-29 16:46:20 | INFO     | avatar:get_avatar_video:103 | Checking Tavus avatar video status for 01bb0db97f
+2026-06-29 16:46:27 | INFO     | avatar:get_avatar_video:103 | Checking Tavus avatar video status for 01bb0db97f
+2026-06-29 16:46:33 | INFO     | avatar:get_avatar_video:103 | Checking Tavus avatar video status for 01bb0db97f
+2026-06-29 16:46:39 | INFO     | avatar:get_avatar_video:103 | Checking Tavus avatar video status for 01bb0db97f
+2026-06-29 16:46:45 | INFO     | avatar:get_avatar_video:103 | Checking Tavus avatar video status for 01bb0db97f
+2026-06-29 16:46:52 | INFO     | avatar:get_avatar_video:103 | Checking Tavus avatar video status for 01bb0db97f
+2026-06-29 16:46:58 | INFO     | avatar:get_avatar_video:103 | Checking Tavus avatar video status for 01bb0db97f
+2026-06-29 16:47:04 | INFO     | avatar:get_avatar_video:103 | Checking Tavus avatar video status for 01bb0db97f
+2026-06-29 16:47:12 | INFO     | avatar:get_avatar_video:103 | Checking Tavus avatar video status for 01bb0db97f
+2026-06-29 16:47:18 | INFO     | avatar:get_avatar_video:103 | Checking Tavus avatar video status for 01bb0db97f
+2026-06-29 16:47:25 | INFO     | avatar:get_avatar_video:103 | Checking Tavus avatar video status for 01bb0db97f
+2026-06-29 16:47:31 | INFO     | avatar:get_avatar_video:103 | Checking Tavus avatar video status for 01bb0db97f
+2026-06-29 16:47:37 | INFO     | avatar:get_avatar_video:103 | Checking Tavus avatar video status for 01bb0db97f
+2026-06-29 16:47:43 | INFO     | avatar:get_avatar_video:103 | Checking Tavus avatar video status for 01bb0db97f
+2026-06-29 16:47:50 | INFO     | avatar:get_avatar_video:103 | Checking Tavus avatar video status for 01bb0db97f
+2026-06-29 16:47:56 | ERROR    | avatar:generate_avatar_response:156 | Avatar generation failed.
+Traceback (most recent call last):
+
+  File "C:\Users\NEERAJ\AppData\Roaming\uv\python\cpython-3.12.10-windows-x86_64-none\Lib\threading.py", line 1032, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x00000123682C5940>
+    └ <Thread(ScriptRunner.scriptThread, started 13992)>
+  File "C:\Users\NEERAJ\AppData\Roaming\uv\python\cpython-3.12.10-windows-x86_64-none\Lib\threading.py", line 1075, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x00000123682C5620>
+    └ <Thread(ScriptRunner.scriptThread, started 13992)>
+  File "C:\Users\NEERAJ\AppData\Roaming\uv\python\cpython-3.12.10-windows-x86_64-none\Lib\threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ScriptRunner.scriptThread, started 13992)>
+    │    │        │    └ ()
+    │    │        └ <Thread(ScriptRunner.scriptThread, started 13992)>
+    │    └ <bound method ScriptRunner._run_script_thread of ScriptRunner(_session_id='45e60f0c-419d-4697-911b-d271197f1b60', _main_scrip...
+    └ <Thread(ScriptRunner.scriptThread, started 13992)>
+  File "D:\ML_project_PW\voice-ai-assistant\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 419, in _run_script_thread
+    self._run_script(request.rerun_data)
+    │    │           │       └ <property object at 0x000001236A987E20>
+    │    │           └ ScriptRequest(type=<ScriptRequestType.RERUN: 'RERUN'>, _rerun_data=RerunData(widget_states=widgets {
+    │    │               id: "$$ID-9b2f0107f4d0...
+    │    └ <function ScriptRunner._run_script at 0x000001236AD268E0>
+    └ ScriptRunner(_session_id='45e60f0c-419d-4697-911b-d271197f1b60', _main_script_path='D:\\ML_project_PW\\voice-ai-assistant\\ap...
+  File "D:\ML_project_PW\voice-ai-assistant\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 814, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+        │                             │             └ ScriptRunContext(session_id='45e60f0c-419d-4697-911b-d271197f1b60', _enqueue=<bound method ScriptRunner._enqueue_forward_msg ...
+        │                             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x000001236BC11F80>
+        └ <function exec_func_with_error_handling at 0x000001236AAA1C60>
+  File "D:\ML_project_PW\voice-ai-assistant\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x000001236BC11F80>
+  File "D:\ML_project_PW\voice-ai-assistant\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 789, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+         │     │      └ <member '__dict__' of 'module' objects>
+         │     └ <module '__main__' from 'D:\\ML_project_PW\\voice-ai-assistant\\app.py'>
+         └ <code object <module> at 0x000001236C065E20, file "D:\ML_project_PW\voice-ai-assistant\app.py", line 1>
+
+  File "D:\ML_project_PW\voice-ai-assistant\app.py", line 577, in <module>
+    main()
+    └ <function main at 0x000001236D114C20>
+
+  File "D:\ML_project_PW\voice-ai-assistant\app.py", line 380, in main
+    run_assistant(transcript)
+    │             └ 'What is the weather in New York?'
+    └ <function run_assistant at 0x000001236D114CC0>
+
+  File "D:\ML_project_PW\voice-ai-assistant\app.py", line 268, in run_assistant
+    avatar_result = generate_avatar_response(last_ai.content)
+                    │                        │       └ 'According to the search results, the current weather in New York on June 29, 2026, is as follows:\n\n* Temperature: 30°C (86...
+                    │                        └ AIMessage(content='According to the search results, the current weather in New York on June 29, 2026, is as follows:\n\n* Tem...
+                    └ <function generate_avatar_response at 0x000001236D4CFA60>
+
+> File "D:\ML_project_PW\voice-ai-assistant\src\avatar.py", line 140, in generate_avatar_response
+    completed_job = wait_for_avatar_video(job.video_id)
+                    │                     │   └ '01bb0db97f'
+                    │                     └ AvatarJob(video_id='01bb0db97f', status='queued', hosted_url='https://tavus.video/01bb0db97f', download_url=None, stream_url=...
+                    └ <function wait_for_avatar_video at 0x000001236D4CF9C0>
+
+  File "D:\ML_project_PW\voice-ai-assistant\src\avatar.py", line 132, in wait_for_avatar_video
+    raise TimeoutError(
+
+TimeoutError: Avatar generation timed out after 90 seconds for video 01bb0db97f.
+2026-06-29 16:47:56 | WARNING  | app:run_assistant:284 | Avatar generation unavailable: 
+VoiceAssistantException
+File      : avatar.py
+Function  : generate_avatar_response
+Line      : 140
+Error     : Avatar generation timed out after 90 seconds for video 01bb0db97f.
+2026-06-29 16:47:56 | SUCCESS  | app:run_assistant:289 | Assistant pipeline completed successfully.
+2026-06-29 16:47:56 | SUCCESS  | app:main:382 | Assistant pipeline executed successfully.
+2026-06-29 16:47:56 | INFO     | app:main:404 | Rendering search decision.
+2026-06-29 16:47:56 | INFO     | app:main:420 | Rendering conversation history.
+2026-06-29 16:47:56 | INFO     | app:main:440 | Rendering search results.
+2026-06-29 16:47:56 | INFO     | app:main:468 | Rendering audio response.
+2026-06-29 16:47:56 | SUCCESS  | app:main:562 | Voice AI Assistant rendered successfully.
+2026-06-29 17:05:25 | INFO     | app:main:308 | Starting Voice AI Assistant application.
+2026-06-29 17:05:25 | INFO     | app:main:313 | Initializing Streamlit session.
+2026-06-29 17:05:25 | INFO     | app:initialize_state:39 | Initializing Streamlit session state.
+2026-06-29 17:05:25 | SUCCESS  | app:initialize_state:45 | Session state initialized successfully.
+2026-06-29 17:05:25 | SUCCESS  | app:main:315 | Session initialized successfully.
+2026-06-29 17:05:25 | INFO     | app:main:317 | Rendering API configuration.
+2026-06-29 17:05:25 | INFO     | app:render_status:109 | Sarvam STT: Configured
+2026-06-29 17:05:25 | INFO     | app:render_status:109 | Groq LLM: Configured
+2026-06-29 17:05:25 | INFO     | app:render_status:109 | Tavily: Configured
+2026-06-29 17:05:25 | INFO     | app:render_status:109 | ElevenLabs: Configured
+2026-06-29 17:05:25 | INFO     | app:render_status:109 | Avatar: Configured
+2026-06-29 17:05:25 | INFO     | app:render_status:109 | Avatar Replica: Configured
+2026-06-29 17:05:25 | SUCCESS  | app:main:332 | API configuration rendered successfully.
+2026-06-29 17:05:25 | INFO     | app:main:340 | Initializing audio source.
+2026-06-29 17:05:25 | INFO     | app:get_audio_source:55 | Detecting available audio input source.
+2026-06-29 17:05:25 | INFO     | app:get_audio_source:61 | Using Streamlit microphone input.
+2026-06-29 17:05:25 | INFO     | app:main:404 | Rendering search decision.
+2026-06-29 17:05:25 | INFO     | app:main:420 | Rendering conversation history.
+2026-06-29 17:05:25 | INFO     | app:main:440 | Rendering search results.
+2026-06-29 17:05:25 | INFO     | app:main:468 | Rendering audio response.
+2026-06-29 17:05:25 | SUCCESS  | app:main:562 | Voice AI Assistant rendered successfully.
+2026-06-29 17:06:11 | INFO     | app:main:308 | Starting Voice AI Assistant application.
+2026-06-29 17:06:11 | INFO     | app:main:313 | Initializing Streamlit session.
+2026-06-29 17:06:11 | INFO     | app:initialize_state:39 | Initializing Streamlit session state.
+2026-06-29 17:06:11 | SUCCESS  | app:initialize_state:45 | Session state initialized successfully.
+2026-06-29 17:06:11 | SUCCESS  | app:main:315 | Session initialized successfully.
+2026-06-29 17:06:11 | INFO     | app:main:317 | Rendering API configuration.
+2026-06-29 17:06:11 | INFO     | app:render_status:109 | Sarvam STT: Configured
+2026-06-29 17:06:11 | INFO     | app:render_status:109 | Groq LLM: Configured
+2026-06-29 17:06:11 | INFO     | app:render_status:109 | Tavily: Configured
+2026-06-29 17:06:11 | INFO     | app:render_status:109 | ElevenLabs: Configured
+2026-06-29 17:06:11 | INFO     | app:render_status:109 | Avatar: Configured
+2026-06-29 17:06:11 | INFO     | app:render_status:109 | Avatar Replica: Configured
+2026-06-29 17:06:11 | SUCCESS  | app:main:332 | API configuration rendered successfully.
+2026-06-29 17:06:11 | INFO     | app:main:340 | Initializing audio source.
+2026-06-29 17:06:11 | INFO     | app:get_audio_source:55 | Detecting available audio input source.
+2026-06-29 17:06:11 | INFO     | app:get_audio_source:61 | Using Streamlit microphone input.
+2026-06-29 17:06:11 | INFO     | app:main:346 | Audio received from user.
+2026-06-29 17:06:11 | INFO     | app:main:404 | Rendering search decision.
+2026-06-29 17:06:11 | INFO     | app:main:420 | Rendering conversation history.
+2026-06-29 17:06:11 | INFO     | app:main:440 | Rendering search results.
+2026-06-29 17:06:11 | INFO     | app:main:468 | Rendering audio response.
+2026-06-29 17:06:11 | SUCCESS  | app:main:562 | Voice AI Assistant rendered successfully.
+2026-06-29 17:06:12 | INFO     | app:main:308 | Starting Voice AI Assistant application.
+2026-06-29 17:06:12 | INFO     | app:main:313 | Initializing Streamlit session.
+2026-06-29 17:06:12 | INFO     | app:initialize_state:39 | Initializing Streamlit session state.
+2026-06-29 17:06:12 | SUCCESS  | app:initialize_state:45 | Session state initialized successfully.
+2026-06-29 17:06:12 | SUCCESS  | app:main:315 | Session initialized successfully.
+2026-06-29 17:06:12 | INFO     | app:main:317 | Rendering API configuration.
+2026-06-29 17:06:12 | INFO     | app:render_status:109 | Sarvam STT: Configured
+2026-06-29 17:06:12 | INFO     | app:render_status:109 | Groq LLM: Configured
+2026-06-29 17:06:12 | INFO     | app:render_status:109 | Tavily: Configured
+2026-06-29 17:06:12 | INFO     | app:render_status:109 | ElevenLabs: Configured
+2026-06-29 17:06:12 | INFO     | app:render_status:109 | Avatar: Configured
+2026-06-29 17:06:12 | INFO     | app:render_status:109 | Avatar Replica: Configured
+2026-06-29 17:06:12 | SUCCESS  | app:main:332 | API configuration rendered successfully.
+2026-06-29 17:06:12 | INFO     | app:main:340 | Initializing audio source.
+2026-06-29 17:06:12 | INFO     | app:get_audio_source:55 | Detecting available audio input source.
+2026-06-29 17:06:12 | INFO     | app:get_audio_source:61 | Using Streamlit microphone input.
+2026-06-29 17:06:12 | INFO     | app:main:346 | Audio received from user.
+2026-06-29 17:06:12 | INFO     | app:main:358 | User initiated assistant pipeline.
+2026-06-29 17:06:12 | INFO     | app:main:364 | Starting speech transcription.
+2026-06-29 17:06:13 | SUCCESS  | app:main:372 | Speech transcription completed successfully.
+2026-06-29 17:06:13 | INFO     | app:main:376 | Executing assistant pipeline.
+2026-06-29 17:06:13 | INFO     | app:run_assistant:150 | Starting assistant pipeline.
+2026-06-29 17:06:13 | INFO     | app:run_assistant:156 | Applying guardrails.
+2026-06-29 17:06:13 | INFO     | app:run_assistant:179 | Adding HumanMessage to conversation history.
+2026-06-29 17:06:13 | INFO     | app:run_assistant:185 | Running search decision model.
+2026-06-29 17:06:14 | INFO     | app:run_assistant:194 | Search Decision: %s | Reason: %s
+2026-06-29 17:06:14 | INFO     | app:run_assistant:204 | Performing Tavily web search.
+2026-06-29 17:06:20 | SUCCESS  | app:run_assistant:210 | Retrieved 5 search results.
+2026-06-29 17:06:20 | INFO     | app:run_assistant:214 | Generating grounded response using search context.
+2026-06-29 17:06:21 | SUCCESS  | app:run_assistant:229 | LLM response generated successfully.
+2026-06-29 17:06:21 | INFO     | app:run_assistant:231 | Adding AIMessage to conversation history.
+2026-06-29 17:06:21 | INFO     | app:run_assistant:237 | Generating speech using ElevenLabs.
+2026-06-29 17:06:26 | SUCCESS  | app:run_assistant:254 | Speech generated successfully.
+2026-06-29 17:06:26 | INFO     | app:run_assistant:264 | Generating photorealistic avatar response.
+2026-06-29 17:06:26 | INFO     | avatar:create_avatar_video:82 | Creating Tavus avatar video request.
+2026-06-29 17:06:31 | SUCCESS  | avatar:create_avatar_video:97 | Avatar video request created successfully: 574a3c2fd6
+2026-06-29 17:06:31 | INFO     | avatar:create_avatar_video:98 | Avatar job 574a3c2fd6 created with initial status: queued
+2026-06-29 17:06:31 | INFO     | avatar:wait_for_avatar_video:134 | Waiting for avatar job 574a3c2fd6. Poll interval: 5s | Timeout: 600s
+2026-06-29 17:06:31 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 1
+2026-06-29 17:06:31 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:06:33 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:06:38 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 2
+2026-06-29 17:06:38 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:06:39 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:06:44 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 3
+2026-06-29 17:06:44 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:06:45 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:06:50 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 4
+2026-06-29 17:06:50 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:06:51 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:06:56 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 5
+2026-06-29 17:06:56 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:06:57 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:07:02 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 6
+2026-06-29 17:07:02 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:07:04 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:07:09 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 7
+2026-06-29 17:07:09 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:07:10 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:07:15 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 8
+2026-06-29 17:07:15 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:07:16 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:07:21 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 9
+2026-06-29 17:07:21 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:07:22 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:07:27 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 10
+2026-06-29 17:07:27 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:07:28 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:07:33 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 11
+2026-06-29 17:07:33 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:07:35 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:07:40 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 12
+2026-06-29 17:07:40 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:07:41 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:07:46 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 13
+2026-06-29 17:07:46 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:07:47 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:07:52 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 14
+2026-06-29 17:07:52 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:07:53 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:07:58 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 15
+2026-06-29 17:07:58 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:08:00 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:08:05 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 16
+2026-06-29 17:08:05 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:08:06 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:08:11 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 17
+2026-06-29 17:08:11 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:08:12 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:08:17 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 18
+2026-06-29 17:08:17 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:08:18 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:08:23 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 19
+2026-06-29 17:08:23 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:08:25 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:08:30 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 20
+2026-06-29 17:08:30 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:08:31 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:08:36 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 21
+2026-06-29 17:08:36 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:08:37 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:08:42 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 22
+2026-06-29 17:08:42 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:08:43 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:08:48 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 23
+2026-06-29 17:08:48 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:08:50 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:08:55 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 24
+2026-06-29 17:08:55 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:08:56 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:09:01 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 25
+2026-06-29 17:09:01 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:09:02 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:09:07 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 26
+2026-06-29 17:09:07 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:09:08 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:09:13 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 27
+2026-06-29 17:09:13 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:09:14 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:09:19 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 28
+2026-06-29 17:09:19 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:09:21 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:09:26 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 29
+2026-06-29 17:09:26 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:09:27 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:09:32 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 30
+2026-06-29 17:09:32 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:09:33 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:09:38 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 31
+2026-06-29 17:09:38 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:09:39 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:09:44 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 32
+2026-06-29 17:09:44 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:09:46 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:09:51 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 33
+2026-06-29 17:09:51 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:09:52 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:09:57 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 34
+2026-06-29 17:09:57 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:09:58 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:10:03 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 35
+2026-06-29 17:10:03 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:10:04 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:10:09 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 36
+2026-06-29 17:10:09 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:10:10 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:10:15 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 37
+2026-06-29 17:10:15 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:10:17 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:10:22 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 38
+2026-06-29 17:10:22 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:10:23 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:10:28 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 39
+2026-06-29 17:10:28 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:10:29 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:10:34 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 40
+2026-06-29 17:10:34 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:10:36 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:10:41 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 41
+2026-06-29 17:10:41 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:10:42 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:10:47 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 42
+2026-06-29 17:10:47 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:10:48 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:10:53 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 43
+2026-06-29 17:10:53 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:10:54 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:10:59 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 44
+2026-06-29 17:10:59 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:11:00 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:11:05 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 45
+2026-06-29 17:11:05 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:11:07 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:11:12 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 46
+2026-06-29 17:11:12 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:11:13 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:11:18 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 47
+2026-06-29 17:11:18 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:11:19 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:11:24 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 48
+2026-06-29 17:11:24 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:11:25 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:11:30 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 49
+2026-06-29 17:11:30 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:11:31 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:11:36 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 50
+2026-06-29 17:11:36 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:11:38 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:11:43 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 51
+2026-06-29 17:11:43 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:11:44 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:11:49 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 52
+2026-06-29 17:11:49 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:11:50 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:11:55 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 53
+2026-06-29 17:11:55 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:11:56 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:12:01 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 54
+2026-06-29 17:12:01 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:12:03 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:12:08 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 55
+2026-06-29 17:12:08 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:12:09 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:12:14 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 56
+2026-06-29 17:12:14 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:12:15 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:12:20 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 57
+2026-06-29 17:12:20 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:12:21 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:12:26 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 58
+2026-06-29 17:12:26 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:12:28 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:12:33 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 59
+2026-06-29 17:12:33 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:12:34 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:12:39 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 60
+2026-06-29 17:12:39 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:12:40 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:12:45 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 61
+2026-06-29 17:12:45 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:12:46 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:12:51 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 62
+2026-06-29 17:12:51 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:12:52 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:12:57 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 63
+2026-06-29 17:12:57 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:12:59 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:13:04 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 64
+2026-06-29 17:13:04 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:13:05 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:13:10 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 65
+2026-06-29 17:13:10 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:13:11 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:13:16 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 66
+2026-06-29 17:13:16 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:13:17 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:13:22 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 67
+2026-06-29 17:13:22 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:13:24 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:13:29 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 68
+2026-06-29 17:13:29 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:13:30 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:13:35 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 69
+2026-06-29 17:13:35 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:13:36 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:13:41 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 70
+2026-06-29 17:13:41 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:13:42 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:13:47 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 71
+2026-06-29 17:13:47 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:13:48 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:13:53 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 72
+2026-06-29 17:13:53 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:13:55 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:14:00 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 73
+2026-06-29 17:14:00 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:14:01 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:14:06 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 74
+2026-06-29 17:14:06 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:14:07 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:14:12 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 75
+2026-06-29 17:14:12 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:14:13 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:14:18 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 76
+2026-06-29 17:14:18 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:14:19 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:14:24 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 77
+2026-06-29 17:14:24 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:14:26 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:14:31 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 78
+2026-06-29 17:14:31 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:14:32 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:14:37 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 79
+2026-06-29 17:14:37 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:14:38 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:14:43 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 80
+2026-06-29 17:14:43 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:14:44 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:14:49 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 81
+2026-06-29 17:14:49 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:14:51 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:14:56 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 82
+2026-06-29 17:14:56 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:14:57 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:15:02 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 83
+2026-06-29 17:15:02 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:15:03 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:15:08 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 84
+2026-06-29 17:15:08 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:15:09 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:15:14 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 85
+2026-06-29 17:15:14 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:15:16 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:15:21 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 86
+2026-06-29 17:15:21 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:15:22 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:15:27 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 87
+2026-06-29 17:15:27 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:15:28 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:15:33 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 88
+2026-06-29 17:15:33 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:15:34 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:15:39 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 89
+2026-06-29 17:15:39 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:15:40 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:15:45 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 90
+2026-06-29 17:15:45 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:15:47 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:15:52 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 91
+2026-06-29 17:15:52 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:15:53 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:15:58 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 92
+2026-06-29 17:15:58 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:15:59 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:16:04 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 93
+2026-06-29 17:16:04 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:16:06 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:16:11 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 94
+2026-06-29 17:16:11 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:16:12 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:16:17 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 95
+2026-06-29 17:16:17 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:16:18 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:16:23 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 96
+2026-06-29 17:16:23 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:16:24 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:16:29 | INFO     | avatar:wait_for_avatar_video:143 | Polling avatar job 574a3c2fd6 attempt 97
+2026-06-29 17:16:29 | INFO     | avatar:get_avatar_video:108 | Checking Tavus avatar video status for 574a3c2fd6
+2026-06-29 17:16:30 | INFO     | avatar:get_avatar_video:119 | Avatar job 574a3c2fd6 status: unknown | details: n/a
+2026-06-29 17:16:35 | ERROR    | avatar:wait_for_avatar_video:167 | Avatar job 574a3c2fd6 timed out after 600 seconds. Last known status: unknown
+2026-06-29 17:16:35 | ERROR    | avatar:generate_avatar_response:202 | Avatar generation failed.
+Traceback (most recent call last):
+
+  File "C:\Users\NEERAJ\AppData\Roaming\uv\python\cpython-3.12.10-windows-x86_64-none\Lib\threading.py", line 1032, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x0000021461575940>
+    └ <Thread(ScriptRunner.scriptThread, started 2344)>
+  File "C:\Users\NEERAJ\AppData\Roaming\uv\python\cpython-3.12.10-windows-x86_64-none\Lib\threading.py", line 1075, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x0000021461575620>
+    └ <Thread(ScriptRunner.scriptThread, started 2344)>
+  File "C:\Users\NEERAJ\AppData\Roaming\uv\python\cpython-3.12.10-windows-x86_64-none\Lib\threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ScriptRunner.scriptThread, started 2344)>
+    │    │        │    └ ()
+    │    │        └ <Thread(ScriptRunner.scriptThread, started 2344)>
+    │    └ <bound method ScriptRunner._run_script_thread of ScriptRunner(_session_id='8ebcf02a-1ff3-4691-a0d4-94ce214bed98', _main_scrip...
+    └ <Thread(ScriptRunner.scriptThread, started 2344)>
+  File "D:\ML_project_PW\voice-ai-assistant\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 419, in _run_script_thread
+    self._run_script(request.rerun_data)
+    │    │           │       └ <property object at 0x0000021463B97E20>
+    │    │           └ ScriptRequest(type=<ScriptRequestType.RERUN: 'RERUN'>, _rerun_data=RerunData(widget_states=widgets {
+    │    │               id: "$$ID-9b2f0107f4d0...
+    │    └ <function ScriptRunner._run_script at 0x0000021463F368E0>
+    └ ScriptRunner(_session_id='8ebcf02a-1ff3-4691-a0d4-94ce214bed98', _main_script_path='D:\\ML_project_PW\\voice-ai-assistant\\ap...
+  File "D:\ML_project_PW\voice-ai-assistant\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 814, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+        │                             │             └ ScriptRunContext(session_id='8ebcf02a-1ff3-4691-a0d4-94ce214bed98', _enqueue=<bound method ScriptRunner._enqueue_forward_msg ...
+        │                             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x0000021466374A40>
+        └ <function exec_func_with_error_handling at 0x0000021463CB1C60>
+  File "D:\ML_project_PW\voice-ai-assistant\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x0000021466374A40>
+  File "D:\ML_project_PW\voice-ai-assistant\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 789, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+         │     │      └ <member '__dict__' of 'module' objects>
+         │     └ <module '__main__' from 'D:\\ML_project_PW\\voice-ai-assistant\\app.py'>
+         └ <code object <module> at 0x0000021465216840, file "D:\ML_project_PW\voice-ai-assistant\app.py", line 1>
+
+  File "D:\ML_project_PW\voice-ai-assistant\app.py", line 577, in <module>
+    main()
+    └ <function main at 0x0000021464E222A0>
+
+  File "D:\ML_project_PW\voice-ai-assistant\app.py", line 380, in main
+    run_assistant(transcript)
+    │             └ 'What is the current weather report in Bhilai?'
+    └ <function run_assistant at 0x0000021463B87920>
+
+  File "D:\ML_project_PW\voice-ai-assistant\app.py", line 268, in run_assistant
+    avatar_result = generate_avatar_response(last_ai.content)
+                    │                        │       └ 'As of 12:00 PM 29 June 2026, the current weather in Bhilai is Patchy rain nearby with a temperature of 37°C (feels like 40°C...
+                    │                        └ AIMessage(content='As of 12:00 PM 29 June 2026, the current weather in Bhilai is Patchy rain nearby with a temperature of 37°...
+                    └ <function generate_avatar_response at 0x000002146676F880>
+
+> File "D:\ML_project_PW\voice-ai-assistant\src\avatar.py", line 181, in generate_avatar_response
+    completed_job = wait_for_avatar_video(job.video_id)
+                    │                     │   └ '574a3c2fd6'
+                    │                     └ AvatarJob(video_id='574a3c2fd6', status='queued', hosted_url='https://tavus.video/574a3c2fd6', download_url=None, stream_url=...
+                    └ <function wait_for_avatar_video at 0x000002146676F7E0>
+
+  File "D:\ML_project_PW\voice-ai-assistant\src\avatar.py", line 173, in wait_for_avatar_video
+    raise TimeoutError(
+
+TimeoutError: Avatar generation timed out after 600 seconds for video 574a3c2fd6.
+2026-06-29 17:16:36 | WARNING  | app:run_assistant:284 | Avatar generation unavailable: 
+VoiceAssistantException
+File      : avatar.py
+Function  : generate_avatar_response
+Line      : 181
+Error     : Avatar generation timed out after 600 seconds for video 574a3c2fd6.
+2026-06-29 17:16:36 | SUCCESS  | app:run_assistant:289 | Assistant pipeline completed successfully.
+2026-06-29 17:16:36 | SUCCESS  | app:main:382 | Assistant pipeline executed successfully.
+2026-06-29 17:16:36 | INFO     | app:main:404 | Rendering search decision.
+2026-06-29 17:16:36 | INFO     | app:main:420 | Rendering conversation history.
+2026-06-29 17:16:36 | INFO     | app:main:440 | Rendering search results.
+2026-06-29 17:16:36 | INFO     | app:main:468 | Rendering audio response.
+2026-06-29 17:16:36 | SUCCESS  | app:main:562 | Voice AI Assistant rendered successfully.
+2026-06-29 20:32:58 | INFO     | app:main:308 | Starting Voice AI Assistant application.
+2026-06-29 20:32:58 | INFO     | app:main:313 | Initializing Streamlit session.
+2026-06-29 20:32:58 | INFO     | app:initialize_state:39 | Initializing Streamlit session state.
+2026-06-29 20:32:58 | SUCCESS  | app:initialize_state:45 | Session state initialized successfully.
+2026-06-29 20:32:58 | SUCCESS  | app:main:315 | Session initialized successfully.
+2026-06-29 20:32:59 | INFO     | app:main:317 | Rendering API configuration.
+2026-06-29 20:32:59 | INFO     | app:render_status:109 | Sarvam STT: Configured
+2026-06-29 20:32:59 | INFO     | app:render_status:109 | Groq LLM: Configured
+2026-06-29 20:32:59 | INFO     | app:render_status:109 | Tavily: Configured
+2026-06-29 20:32:59 | INFO     | app:render_status:109 | ElevenLabs: Configured
+2026-06-29 20:32:59 | INFO     | app:render_status:109 | Avatar: Configured
+2026-06-29 20:32:59 | INFO     | app:render_status:109 | Avatar Replica: Configured
+2026-06-29 20:32:59 | SUCCESS  | app:main:332 | API configuration rendered successfully.
+2026-06-29 20:32:59 | INFO     | app:main:340 | Initializing audio source.
+2026-06-29 20:32:59 | INFO     | app:get_audio_source:55 | Detecting available audio input source.
+2026-06-29 20:32:59 | INFO     | app:get_audio_source:61 | Using Streamlit microphone input.
+2026-06-29 20:32:59 | INFO     | app:main:404 | Rendering search decision.
+2026-06-29 20:32:59 | INFO     | app:main:420 | Rendering conversation history.
+2026-06-29 20:32:59 | INFO     | app:main:440 | Rendering search results.
+2026-06-29 20:32:59 | INFO     | app:main:468 | Rendering audio response.
+2026-06-29 20:32:59 | SUCCESS  | app:main:562 | Voice AI Assistant rendered successfully.
+2026-06-29 20:33:11 | INFO     | app:main:308 | Starting Voice AI Assistant application.
+2026-06-29 20:33:11 | INFO     | app:main:313 | Initializing Streamlit session.
+2026-06-29 20:33:11 | INFO     | app:initialize_state:39 | Initializing Streamlit session state.
+2026-06-29 20:33:11 | SUCCESS  | app:initialize_state:45 | Session state initialized successfully.
+2026-06-29 20:33:11 | SUCCESS  | app:main:315 | Session initialized successfully.
+2026-06-29 20:33:11 | INFO     | app:main:317 | Rendering API configuration.
+2026-06-29 20:33:11 | INFO     | app:render_status:109 | Sarvam STT: Configured
+2026-06-29 20:33:11 | INFO     | app:render_status:109 | Groq LLM: Configured
+2026-06-29 20:33:11 | INFO     | app:render_status:109 | Tavily: Configured
+2026-06-29 20:33:11 | INFO     | app:render_status:109 | ElevenLabs: Configured
+2026-06-29 20:33:11 | INFO     | app:render_status:109 | Avatar: Configured
+2026-06-29 20:33:11 | INFO     | app:render_status:109 | Avatar Replica: Configured
+2026-06-29 20:33:11 | SUCCESS  | app:main:332 | API configuration rendered successfully.
+2026-06-29 20:33:11 | INFO     | app:main:340 | Initializing audio source.
+2026-06-29 20:33:11 | INFO     | app:get_audio_source:55 | Detecting available audio input source.
+2026-06-29 20:33:11 | INFO     | app:get_audio_source:61 | Using Streamlit microphone input.
+2026-06-29 20:33:11 | INFO     | app:main:346 | Audio received from user.
+2026-06-29 20:33:12 | INFO     | app:main:404 | Rendering search decision.
+2026-06-29 20:33:12 | INFO     | app:main:420 | Rendering conversation history.
+2026-06-29 20:33:12 | INFO     | app:main:440 | Rendering search results.
+2026-06-29 20:33:12 | INFO     | app:main:468 | Rendering audio response.
+2026-06-29 20:33:12 | SUCCESS  | app:main:562 | Voice AI Assistant rendered successfully.
+2026-06-29 20:33:17 | INFO     | app:main:308 | Starting Voice AI Assistant application.
+2026-06-29 20:33:17 | INFO     | app:main:313 | Initializing Streamlit session.
+2026-06-29 20:33:17 | INFO     | app:initialize_state:39 | Initializing Streamlit session state.
+2026-06-29 20:33:17 | SUCCESS  | app:initialize_state:45 | Session state initialized successfully.
+2026-06-29 20:33:17 | SUCCESS  | app:main:315 | Session initialized successfully.
+2026-06-29 20:33:17 | INFO     | app:main:317 | Rendering API configuration.
+2026-06-29 20:33:17 | INFO     | app:render_status:109 | Sarvam STT: Configured
+2026-06-29 20:33:17 | INFO     | app:render_status:109 | Groq LLM: Configured
+2026-06-29 20:33:17 | INFO     | app:render_status:109 | Tavily: Configured
+2026-06-29 20:33:17 | INFO     | app:render_status:109 | ElevenLabs: Configured
+2026-06-29 20:33:17 | INFO     | app:render_status:109 | Avatar: Configured
+2026-06-29 20:33:17 | INFO     | app:render_status:109 | Avatar Replica: Configured
+2026-06-29 20:33:17 | SUCCESS  | app:main:332 | API configuration rendered successfully.
+2026-06-29 20:33:17 | INFO     | app:main:340 | Initializing audio source.
+2026-06-29 20:33:17 | INFO     | app:get_audio_source:55 | Detecting available audio input source.
+2026-06-29 20:33:17 | INFO     | app:get_audio_source:61 | Using Streamlit microphone input.
+2026-06-29 20:33:17 | INFO     | app:main:346 | Audio received from user.
+2026-06-29 20:33:17 | INFO     | app:main:358 | User initiated assistant pipeline.
+2026-06-29 20:33:17 | INFO     | app:main:364 | Starting speech transcription.
+2026-06-29 20:33:18 | SUCCESS  | app:main:372 | Speech transcription completed successfully.
+2026-06-29 20:33:18 | INFO     | app:main:376 | Executing assistant pipeline.
+2026-06-29 20:33:18 | INFO     | app:run_assistant:150 | Starting assistant pipeline.
+2026-06-29 20:33:18 | INFO     | app:run_assistant:156 | Applying guardrails.
+2026-06-29 20:33:18 | INFO     | app:run_assistant:179 | Adding HumanMessage to conversation history.
+2026-06-29 20:33:18 | INFO     | app:run_assistant:185 | Running search decision model.
+2026-06-29 20:33:19 | INFO     | app:run_assistant:194 | Search Decision: %s | Reason: %s
+2026-06-29 20:33:19 | INFO     | app:run_assistant:223 | Generating response without web search.
+2026-06-29 20:33:20 | SUCCESS  | app:run_assistant:229 | LLM response generated successfully.
+2026-06-29 20:33:20 | INFO     | app:run_assistant:231 | Adding AIMessage to conversation history.
+2026-06-29 20:33:20 | INFO     | app:run_assistant:237 | Generating speech using ElevenLabs.
+2026-06-29 20:33:24 | SUCCESS  | app:run_assistant:254 | Speech generated successfully.
+2026-06-29 20:33:24 | INFO     | app:run_assistant:264 | Generating photorealistic avatar response.
+2026-06-29 20:33:24 | INFO     | avatar:create_avatar_video:119 | Creating Tavus avatar video request.
+2026-06-29 20:33:29 | SUCCESS  | avatar:create_avatar_video:134 | Avatar video request created successfully: 4ce3eecca4
+2026-06-29 20:33:29 | INFO     | avatar:create_avatar_video:135 | Avatar job 4ce3eecca4 created with initial status: queued
+2026-06-29 20:33:29 | INFO     | avatar:wait_for_avatar_video:179 | Waiting for avatar job 4ce3eecca4. Poll interval: 5s | Timeout: 300s
+2026-06-29 20:33:29 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 1
+2026-06-29 20:33:29 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:33:30 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: queued | details: This request is currently queued. It should begin processing in a few minutes.
+2026-06-29 20:33:35 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 2
+2026-06-29 20:33:35 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:33:36 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:33:41 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 3
+2026-06-29 20:33:41 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:33:43 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:33:48 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 4
+2026-06-29 20:33:48 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:33:49 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:33:54 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 5
+2026-06-29 20:33:54 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:33:55 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:34:00 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 6
+2026-06-29 20:34:00 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:34:01 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:34:06 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 7
+2026-06-29 20:34:06 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:34:07 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:34:12 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 8
+2026-06-29 20:34:12 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:34:13 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:34:18 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 9
+2026-06-29 20:34:18 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:34:20 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:34:25 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 10
+2026-06-29 20:34:25 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:34:26 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:34:31 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 11
+2026-06-29 20:34:31 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:34:32 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:34:37 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 12
+2026-06-29 20:34:37 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:34:38 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:34:43 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 13
+2026-06-29 20:34:43 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:34:45 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:34:50 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 14
+2026-06-29 20:34:50 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:34:51 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:34:56 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 15
+2026-06-29 20:34:56 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:34:57 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:35:02 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 16
+2026-06-29 20:35:02 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:35:03 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:35:08 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 17
+2026-06-29 20:35:08 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:35:09 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:35:14 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 18
+2026-06-29 20:35:14 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:35:16 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:35:21 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 19
+2026-06-29 20:35:21 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:35:22 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:35:27 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 20
+2026-06-29 20:35:27 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:35:28 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:35:33 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 21
+2026-06-29 20:35:33 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:35:34 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:35:39 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 22
+2026-06-29 20:35:39 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:35:41 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:35:46 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 23
+2026-06-29 20:35:46 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:35:47 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:35:52 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 24
+2026-06-29 20:35:52 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:35:53 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:35:58 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 25
+2026-06-29 20:35:58 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:35:59 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:36:04 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 26
+2026-06-29 20:36:04 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:36:05 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:36:10 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 27
+2026-06-29 20:36:10 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:36:12 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:36:17 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 28
+2026-06-29 20:36:17 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:36:18 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:36:23 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 29
+2026-06-29 20:36:23 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:36:24 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:36:29 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 30
+2026-06-29 20:36:29 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:36:30 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: generating | details: n/a
+2026-06-29 20:36:35 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 4ce3eecca4 attempt 31
+2026-06-29 20:36:35 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 4ce3eecca4
+2026-06-29 20:36:36 | INFO     | avatar:get_avatar_video:164 | Avatar job 4ce3eecca4 status: ready | details: Your request has processed successfully!
+2026-06-29 20:36:36 | SUCCESS  | avatar:wait_for_avatar_video:193 | Avatar job 4ce3eecca4 completed successfully with status: ready
+2026-06-29 20:36:36 | INFO     | avatar:generate_avatar_response:230 | Avatar job 4ce3eecca4 is ready. Downloading cached video from https://stream.mux.com/elRQVhH7FJW91swuPrWpipqynnUpFg7I8ZLU02XA9tL4/high.mp4?download=4ce3eecca4
+2026-06-29 20:36:36 | INFO     | video_cache:download_video_to_cache:22 | Caching avatar video 4ce3eecca4 to assets\generated_video\4ce3eecca4.mp4
+2026-06-29 20:36:39 | SUCCESS  | video_cache:download_video_to_cache:29 | Avatar video cached successfully at assets\generated_video\4ce3eecca4.mp4
+2026-06-29 20:36:39 | SUCCESS  | app:run_assistant:277 | Avatar response generated successfully with video id 4ce3eecca4.
+2026-06-29 20:36:39 | SUCCESS  | app:run_assistant:289 | Assistant pipeline completed successfully.
+2026-06-29 20:36:39 | SUCCESS  | app:main:382 | Assistant pipeline executed successfully.
+2026-06-29 20:36:39 | INFO     | app:main:404 | Rendering search decision.
+2026-06-29 20:36:39 | INFO     | app:main:420 | Rendering conversation history.
+2026-06-29 20:36:39 | INFO     | app:main:440 | Rendering search results.
+2026-06-29 20:36:39 | INFO     | app:main:468 | Rendering audio response.
+2026-06-29 20:36:39 | SUCCESS  | app:main:562 | Voice AI Assistant rendered successfully.
+2026-06-29 20:45:52 | INFO     | app:main:308 | Starting Voice AI Assistant application.
+2026-06-29 20:45:52 | INFO     | app:main:313 | Initializing Streamlit session.
+2026-06-29 20:45:52 | INFO     | app:initialize_state:39 | Initializing Streamlit session state.
+2026-06-29 20:45:52 | SUCCESS  | app:initialize_state:45 | Session state initialized successfully.
+2026-06-29 20:45:52 | SUCCESS  | app:main:315 | Session initialized successfully.
+2026-06-29 20:45:52 | INFO     | app:main:317 | Rendering API configuration.
+2026-06-29 20:45:52 | INFO     | app:render_status:109 | Sarvam STT: Configured
+2026-06-29 20:45:52 | INFO     | app:render_status:109 | Groq LLM: Configured
+2026-06-29 20:45:52 | INFO     | app:render_status:109 | Tavily: Configured
+2026-06-29 20:45:52 | INFO     | app:render_status:109 | ElevenLabs: Configured
+2026-06-29 20:45:52 | INFO     | app:render_status:109 | Avatar: Configured
+2026-06-29 20:45:52 | INFO     | app:render_status:109 | Avatar Replica: Configured
+2026-06-29 20:45:52 | SUCCESS  | app:main:332 | API configuration rendered successfully.
+2026-06-29 20:45:52 | INFO     | app:main:340 | Initializing audio source.
+2026-06-29 20:45:52 | INFO     | app:get_audio_source:55 | Detecting available audio input source.
+2026-06-29 20:45:52 | INFO     | app:get_audio_source:61 | Using Streamlit microphone input.
+2026-06-29 20:45:52 | INFO     | app:main:404 | Rendering search decision.
+2026-06-29 20:45:52 | INFO     | app:main:420 | Rendering conversation history.
+2026-06-29 20:45:52 | INFO     | app:main:440 | Rendering search results.
+2026-06-29 20:45:52 | INFO     | app:main:468 | Rendering audio response.
+2026-06-29 20:45:52 | SUCCESS  | app:main:562 | Voice AI Assistant rendered successfully.
+2026-06-29 20:46:07 | INFO     | app:main:308 | Starting Voice AI Assistant application.
+2026-06-29 20:46:07 | INFO     | app:main:313 | Initializing Streamlit session.
+2026-06-29 20:46:07 | INFO     | app:initialize_state:39 | Initializing Streamlit session state.
+2026-06-29 20:46:07 | SUCCESS  | app:initialize_state:45 | Session state initialized successfully.
+2026-06-29 20:46:07 | SUCCESS  | app:main:315 | Session initialized successfully.
+2026-06-29 20:46:07 | INFO     | app:main:317 | Rendering API configuration.
+2026-06-29 20:46:07 | INFO     | app:render_status:109 | Sarvam STT: Configured
+2026-06-29 20:46:07 | INFO     | app:render_status:109 | Groq LLM: Configured
+2026-06-29 20:46:07 | INFO     | app:render_status:109 | Tavily: Configured
+2026-06-29 20:46:07 | INFO     | app:render_status:109 | ElevenLabs: Configured
+2026-06-29 20:46:07 | INFO     | app:render_status:109 | Avatar: Configured
+2026-06-29 20:46:07 | INFO     | app:render_status:109 | Avatar Replica: Configured
+2026-06-29 20:46:07 | SUCCESS  | app:main:332 | API configuration rendered successfully.
+2026-06-29 20:46:07 | INFO     | app:main:340 | Initializing audio source.
+2026-06-29 20:46:07 | INFO     | app:get_audio_source:55 | Detecting available audio input source.
+2026-06-29 20:46:07 | INFO     | app:get_audio_source:61 | Using Streamlit microphone input.
+2026-06-29 20:46:07 | INFO     | app:main:404 | Rendering search decision.
+2026-06-29 20:46:07 | INFO     | app:main:420 | Rendering conversation history.
+2026-06-29 20:46:07 | INFO     | app:main:440 | Rendering search results.
+2026-06-29 20:46:07 | INFO     | app:main:468 | Rendering audio response.
+2026-06-29 20:46:07 | SUCCESS  | app:main:562 | Voice AI Assistant rendered successfully.
+2026-06-29 20:46:24 | INFO     | app:main:308 | Starting Voice AI Assistant application.
+2026-06-29 20:46:24 | INFO     | app:main:313 | Initializing Streamlit session.
+2026-06-29 20:46:24 | INFO     | app:initialize_state:39 | Initializing Streamlit session state.
+2026-06-29 20:46:24 | SUCCESS  | app:initialize_state:45 | Session state initialized successfully.
+2026-06-29 20:46:24 | SUCCESS  | app:main:315 | Session initialized successfully.
+2026-06-29 20:46:24 | INFO     | app:main:317 | Rendering API configuration.
+2026-06-29 20:46:24 | INFO     | app:render_status:109 | Sarvam STT: Configured
+2026-06-29 20:46:24 | INFO     | app:render_status:109 | Groq LLM: Configured
+2026-06-29 20:46:24 | INFO     | app:render_status:109 | Tavily: Configured
+2026-06-29 20:46:24 | INFO     | app:render_status:109 | ElevenLabs: Configured
+2026-06-29 20:46:24 | INFO     | app:render_status:109 | Avatar: Configured
+2026-06-29 20:46:24 | INFO     | app:render_status:109 | Avatar Replica: Configured
+2026-06-29 20:46:24 | SUCCESS  | app:main:332 | API configuration rendered successfully.
+2026-06-29 20:46:24 | INFO     | app:main:340 | Initializing audio source.
+2026-06-29 20:46:24 | INFO     | app:get_audio_source:55 | Detecting available audio input source.
+2026-06-29 20:46:24 | INFO     | app:get_audio_source:61 | Using Streamlit microphone input.
+2026-06-29 20:46:24 | INFO     | app:main:404 | Rendering search decision.
+2026-06-29 20:46:24 | INFO     | app:main:420 | Rendering conversation history.
+2026-06-29 20:46:24 | INFO     | app:main:440 | Rendering search results.
+2026-06-29 20:46:24 | INFO     | app:main:468 | Rendering audio response.
+2026-06-29 20:46:24 | SUCCESS  | app:main:562 | Voice AI Assistant rendered successfully.
+2026-06-29 20:47:14 | INFO     | app:main:308 | Starting Voice AI Assistant application.
+2026-06-29 20:47:14 | INFO     | app:main:313 | Initializing Streamlit session.
+2026-06-29 20:47:14 | INFO     | app:initialize_state:39 | Initializing Streamlit session state.
+2026-06-29 20:47:14 | SUCCESS  | app:initialize_state:45 | Session state initialized successfully.
+2026-06-29 20:47:14 | SUCCESS  | app:main:315 | Session initialized successfully.
+2026-06-29 20:47:14 | INFO     | app:main:317 | Rendering API configuration.
+2026-06-29 20:47:14 | INFO     | app:render_status:109 | Sarvam STT: Configured
+2026-06-29 20:47:14 | INFO     | app:render_status:109 | Groq LLM: Configured
+2026-06-29 20:47:14 | INFO     | app:render_status:109 | Tavily: Configured
+2026-06-29 20:47:14 | INFO     | app:render_status:109 | ElevenLabs: Configured
+2026-06-29 20:47:14 | INFO     | app:render_status:109 | Avatar: Configured
+2026-06-29 20:47:14 | INFO     | app:render_status:109 | Avatar Replica: Configured
+2026-06-29 20:47:14 | SUCCESS  | app:main:332 | API configuration rendered successfully.
+2026-06-29 20:47:14 | INFO     | app:main:340 | Initializing audio source.
+2026-06-29 20:47:14 | INFO     | app:get_audio_source:55 | Detecting available audio input source.
+2026-06-29 20:47:14 | INFO     | app:get_audio_source:61 | Using Streamlit microphone input.
+2026-06-29 20:47:14 | INFO     | app:main:346 | Audio received from user.
+2026-06-29 20:47:14 | INFO     | app:main:404 | Rendering search decision.
+2026-06-29 20:47:14 | INFO     | app:main:420 | Rendering conversation history.
+2026-06-29 20:47:14 | INFO     | app:main:440 | Rendering search results.
+2026-06-29 20:47:14 | INFO     | app:main:468 | Rendering audio response.
+2026-06-29 20:47:14 | SUCCESS  | app:main:562 | Voice AI Assistant rendered successfully.
+2026-06-29 20:47:20 | INFO     | app:main:308 | Starting Voice AI Assistant application.
+2026-06-29 20:47:20 | INFO     | app:main:313 | Initializing Streamlit session.
+2026-06-29 20:47:20 | INFO     | app:initialize_state:39 | Initializing Streamlit session state.
+2026-06-29 20:47:20 | SUCCESS  | app:initialize_state:45 | Session state initialized successfully.
+2026-06-29 20:47:20 | SUCCESS  | app:main:315 | Session initialized successfully.
+2026-06-29 20:47:20 | INFO     | app:main:317 | Rendering API configuration.
+2026-06-29 20:47:20 | INFO     | app:render_status:109 | Sarvam STT: Configured
+2026-06-29 20:47:20 | INFO     | app:render_status:109 | Groq LLM: Configured
+2026-06-29 20:47:20 | INFO     | app:render_status:109 | Tavily: Configured
+2026-06-29 20:47:20 | INFO     | app:render_status:109 | ElevenLabs: Configured
+2026-06-29 20:47:20 | INFO     | app:render_status:109 | Avatar: Configured
+2026-06-29 20:47:20 | INFO     | app:render_status:109 | Avatar Replica: Configured
+2026-06-29 20:47:20 | SUCCESS  | app:main:332 | API configuration rendered successfully.
+2026-06-29 20:47:20 | INFO     | app:main:340 | Initializing audio source.
+2026-06-29 20:47:20 | INFO     | app:get_audio_source:55 | Detecting available audio input source.
+2026-06-29 20:47:20 | INFO     | app:get_audio_source:61 | Using Streamlit microphone input.
+2026-06-29 20:47:20 | INFO     | app:main:346 | Audio received from user.
+2026-06-29 20:47:20 | INFO     | app:main:358 | User initiated assistant pipeline.
+2026-06-29 20:47:20 | INFO     | app:main:364 | Starting speech transcription.
+2026-06-29 20:47:21 | SUCCESS  | app:main:372 | Speech transcription completed successfully.
+2026-06-29 20:47:21 | INFO     | app:main:376 | Executing assistant pipeline.
+2026-06-29 20:47:21 | INFO     | app:run_assistant:150 | Starting assistant pipeline.
+2026-06-29 20:47:21 | INFO     | app:run_assistant:156 | Applying guardrails.
+2026-06-29 20:47:21 | INFO     | app:run_assistant:179 | Adding HumanMessage to conversation history.
+2026-06-29 20:47:21 | INFO     | app:run_assistant:185 | Running search decision model.
+2026-06-29 20:47:22 | INFO     | app:run_assistant:194 | Search Decision: %s | Reason: %s
+2026-06-29 20:47:22 | INFO     | app:run_assistant:204 | Performing Tavily web search.
+2026-06-29 20:47:25 | SUCCESS  | app:run_assistant:210 | Retrieved 5 search results.
+2026-06-29 20:47:25 | INFO     | app:run_assistant:214 | Generating grounded response using search context.
+2026-06-29 20:47:26 | SUCCESS  | app:run_assistant:229 | LLM response generated successfully.
+2026-06-29 20:47:26 | INFO     | app:run_assistant:231 | Adding AIMessage to conversation history.
+2026-06-29 20:47:26 | INFO     | app:run_assistant:237 | Generating speech using ElevenLabs.
+2026-06-29 20:47:40 | SUCCESS  | app:run_assistant:254 | Speech generated successfully.
+2026-06-29 20:47:40 | INFO     | app:run_assistant:264 | Generating photorealistic avatar response.
+2026-06-29 20:47:40 | INFO     | avatar:create_avatar_video:119 | Creating Tavus avatar video request.
+2026-06-29 20:47:45 | SUCCESS  | avatar:create_avatar_video:134 | Avatar video request created successfully: 324f2da2ba
+2026-06-29 20:47:45 | INFO     | avatar:create_avatar_video:135 | Avatar job 324f2da2ba created with initial status: queued
+2026-06-29 20:47:45 | INFO     | avatar:wait_for_avatar_video:179 | Waiting for avatar job 324f2da2ba. Poll interval: 5s | Timeout: 600s
+2026-06-29 20:47:45 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 1
+2026-06-29 20:47:45 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:47:46 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: queued | details: This request is currently queued. It should begin processing in a few minutes.
+2026-06-29 20:47:51 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 2
+2026-06-29 20:47:51 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:47:52 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:47:57 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 3
+2026-06-29 20:47:57 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:47:59 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:48:04 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 4
+2026-06-29 20:48:04 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:48:05 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:48:10 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 5
+2026-06-29 20:48:10 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:48:11 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:48:16 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 6
+2026-06-29 20:48:16 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:48:17 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:48:22 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 7
+2026-06-29 20:48:22 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:48:23 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:48:28 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 8
+2026-06-29 20:48:28 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:48:29 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:48:34 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 9
+2026-06-29 20:48:34 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:48:36 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:48:41 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 10
+2026-06-29 20:48:41 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:48:42 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:48:47 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 11
+2026-06-29 20:48:47 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:48:48 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:48:53 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 12
+2026-06-29 20:48:53 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:48:54 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:48:59 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 13
+2026-06-29 20:48:59 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:49:01 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:49:06 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 14
+2026-06-29 20:49:06 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:49:07 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:49:12 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 15
+2026-06-29 20:49:12 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:49:13 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:49:18 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 16
+2026-06-29 20:49:18 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:49:19 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:49:24 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 17
+2026-06-29 20:49:24 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:49:46 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:49:51 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 18
+2026-06-29 20:49:51 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:49:53 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:49:58 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 19
+2026-06-29 20:49:58 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:49:59 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:50:04 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 20
+2026-06-29 20:50:04 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:50:05 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:50:10 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 21
+2026-06-29 20:50:10 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:50:11 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:50:16 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 22
+2026-06-29 20:50:16 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:50:18 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:50:23 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 23
+2026-06-29 20:50:23 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:50:24 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:50:29 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 24
+2026-06-29 20:50:29 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:50:30 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:50:35 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 25
+2026-06-29 20:50:35 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:50:37 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:50:42 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 26
+2026-06-29 20:50:42 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:50:43 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:50:48 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 27
+2026-06-29 20:50:48 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:50:49 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:50:54 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 28
+2026-06-29 20:50:54 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:50:55 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:51:00 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 29
+2026-06-29 20:51:00 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:51:02 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:51:07 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 30
+2026-06-29 20:51:07 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:51:08 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:51:13 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 31
+2026-06-29 20:51:13 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:51:14 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:51:19 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 32
+2026-06-29 20:51:19 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:51:20 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:51:25 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 33
+2026-06-29 20:51:25 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:51:26 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:51:31 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 34
+2026-06-29 20:51:31 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:51:33 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:51:38 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 35
+2026-06-29 20:51:38 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:51:39 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:51:44 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 36
+2026-06-29 20:51:44 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:51:45 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:51:50 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 37
+2026-06-29 20:51:50 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:51:51 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:51:56 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 38
+2026-06-29 20:51:56 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:51:57 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:52:02 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 39
+2026-06-29 20:52:02 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:52:04 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:52:09 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 40
+2026-06-29 20:52:09 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:52:10 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:52:15 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 41
+2026-06-29 20:52:15 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:52:16 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:52:21 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 42
+2026-06-29 20:52:21 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:52:22 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:52:27 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 43
+2026-06-29 20:52:27 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:52:28 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:52:33 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 44
+2026-06-29 20:52:33 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:52:35 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:52:40 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 45
+2026-06-29 20:52:40 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:52:41 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:52:46 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 46
+2026-06-29 20:52:46 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:52:47 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:52:52 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 47
+2026-06-29 20:52:52 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:52:53 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:52:58 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 48
+2026-06-29 20:52:58 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:53:00 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:53:05 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 49
+2026-06-29 20:53:05 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:53:06 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:53:11 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 50
+2026-06-29 20:53:11 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:53:12 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:53:17 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 51
+2026-06-29 20:53:17 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:53:18 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:53:23 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 52
+2026-06-29 20:53:23 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:53:24 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:53:29 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 53
+2026-06-29 20:53:29 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:53:31 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:53:36 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 54
+2026-06-29 20:53:36 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:53:37 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:53:42 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 55
+2026-06-29 20:53:42 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:53:43 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:53:48 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 56
+2026-06-29 20:53:48 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:53:49 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:53:54 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 57
+2026-06-29 20:53:54 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:53:56 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:54:01 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 58
+2026-06-29 20:54:01 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:54:02 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:54:07 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 59
+2026-06-29 20:54:07 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:54:08 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:54:13 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 60
+2026-06-29 20:54:13 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:54:14 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:54:19 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 61
+2026-06-29 20:54:19 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:54:20 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:54:25 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 62
+2026-06-29 20:54:25 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:54:27 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:54:32 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 63
+2026-06-29 20:54:32 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:54:33 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:54:38 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 64
+2026-06-29 20:54:38 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:54:39 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:54:44 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 65
+2026-06-29 20:54:44 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:54:45 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:54:50 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 66
+2026-06-29 20:54:50 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:54:51 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:54:56 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 67
+2026-06-29 20:54:56 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:54:58 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:55:03 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 68
+2026-06-29 20:55:03 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:55:04 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:55:09 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 69
+2026-06-29 20:55:09 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:55:10 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:55:15 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 70
+2026-06-29 20:55:15 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:55:16 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:55:21 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 71
+2026-06-29 20:55:21 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:55:23 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:55:28 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 72
+2026-06-29 20:55:28 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:55:29 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:55:34 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 73
+2026-06-29 20:55:34 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:55:35 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:55:40 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 74
+2026-06-29 20:55:40 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:55:41 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:55:46 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 75
+2026-06-29 20:55:46 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:55:47 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: generating | details: n/a
+2026-06-29 20:55:52 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 324f2da2ba attempt 76
+2026-06-29 20:55:52 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 324f2da2ba
+2026-06-29 20:55:54 | INFO     | avatar:get_avatar_video:164 | Avatar job 324f2da2ba status: ready | details: Your request has processed successfully!
+2026-06-29 20:55:54 | SUCCESS  | avatar:wait_for_avatar_video:193 | Avatar job 324f2da2ba completed successfully with status: ready
+2026-06-29 20:55:54 | INFO     | avatar:generate_avatar_response:230 | Avatar job 324f2da2ba is ready. Downloading cached video from https://stream.mux.com/AFwbLZBKD5OYPnaRJdkpT01udCFhvXEjq3pSRV00MZ4sI/high.mp4?download=324f2da2ba
+2026-06-29 20:55:54 | INFO     | video_cache:download_video_to_cache:22 | Caching avatar video 324f2da2ba to assets\generated_video\324f2da2ba.mp4
+2026-06-29 20:55:59 | SUCCESS  | video_cache:download_video_to_cache:29 | Avatar video cached successfully at assets\generated_video\324f2da2ba.mp4
+2026-06-29 20:55:59 | SUCCESS  | app:run_assistant:277 | Avatar response generated successfully with video id 324f2da2ba.
+2026-06-29 20:55:59 | SUCCESS  | app:run_assistant:289 | Assistant pipeline completed successfully.
+2026-06-29 20:55:59 | SUCCESS  | app:main:382 | Assistant pipeline executed successfully.
+2026-06-29 20:55:59 | INFO     | app:main:404 | Rendering search decision.
+2026-06-29 20:55:59 | INFO     | app:main:420 | Rendering conversation history.
+2026-06-29 20:55:59 | INFO     | app:main:440 | Rendering search results.
+2026-06-29 20:55:59 | INFO     | app:main:468 | Rendering audio response.
+2026-06-29 20:55:59 | SUCCESS  | app:main:562 | Voice AI Assistant rendered successfully.
+2026-06-29 20:56:52 | INFO     | app:main:308 | Starting Voice AI Assistant application.
+2026-06-29 20:56:52 | INFO     | app:main:313 | Initializing Streamlit session.
+2026-06-29 20:56:52 | INFO     | app:initialize_state:39 | Initializing Streamlit session state.
+2026-06-29 20:56:52 | SUCCESS  | app:initialize_state:45 | Session state initialized successfully.
+2026-06-29 20:56:52 | SUCCESS  | app:main:315 | Session initialized successfully.
+2026-06-29 20:56:52 | INFO     | app:main:317 | Rendering API configuration.
+2026-06-29 20:56:52 | INFO     | app:render_status:109 | Sarvam STT: Configured
+2026-06-29 20:56:52 | INFO     | app:render_status:109 | Groq LLM: Configured
+2026-06-29 20:56:52 | INFO     | app:render_status:109 | Tavily: Configured
+2026-06-29 20:56:52 | INFO     | app:render_status:109 | ElevenLabs: Configured
+2026-06-29 20:56:52 | INFO     | app:render_status:109 | Avatar: Configured
+2026-06-29 20:56:52 | INFO     | app:render_status:109 | Avatar Replica: Configured
+2026-06-29 20:56:52 | SUCCESS  | app:main:332 | API configuration rendered successfully.
+2026-06-29 20:56:52 | INFO     | app:main:340 | Initializing audio source.
+2026-06-29 20:56:52 | INFO     | app:get_audio_source:55 | Detecting available audio input source.
+2026-06-29 20:56:52 | INFO     | app:get_audio_source:61 | Using Streamlit microphone input.
+2026-06-29 20:56:52 | INFO     | app:main:346 | Audio received from user.
+2026-06-29 20:56:52 | INFO     | app:main:404 | Rendering search decision.
+2026-06-29 20:56:52 | INFO     | app:main:420 | Rendering conversation history.
+2026-06-29 20:56:52 | INFO     | app:main:440 | Rendering search results.
+2026-06-29 20:56:52 | INFO     | app:main:468 | Rendering audio response.
+2026-06-29 20:56:52 | SUCCESS  | app:main:562 | Voice AI Assistant rendered successfully.
+2026-06-29 20:56:54 | INFO     | app:main:308 | Starting Voice AI Assistant application.
+2026-06-29 20:56:54 | INFO     | app:main:313 | Initializing Streamlit session.
+2026-06-29 20:56:54 | INFO     | app:initialize_state:39 | Initializing Streamlit session state.
+2026-06-29 20:56:54 | SUCCESS  | app:initialize_state:45 | Session state initialized successfully.
+2026-06-29 20:56:54 | SUCCESS  | app:main:315 | Session initialized successfully.
+2026-06-29 20:56:54 | INFO     | app:main:317 | Rendering API configuration.
+2026-06-29 20:56:54 | INFO     | app:render_status:109 | Sarvam STT: Configured
+2026-06-29 20:56:54 | INFO     | app:render_status:109 | Groq LLM: Configured
+2026-06-29 20:56:54 | INFO     | app:render_status:109 | Tavily: Configured
+2026-06-29 20:56:54 | INFO     | app:render_status:109 | ElevenLabs: Configured
+2026-06-29 20:56:54 | INFO     | app:render_status:109 | Avatar: Configured
+2026-06-29 20:56:54 | INFO     | app:render_status:109 | Avatar Replica: Configured
+2026-06-29 20:56:54 | SUCCESS  | app:main:332 | API configuration rendered successfully.
+2026-06-29 20:56:54 | INFO     | app:main:340 | Initializing audio source.
+2026-06-29 20:56:54 | INFO     | app:get_audio_source:55 | Detecting available audio input source.
+2026-06-29 20:56:54 | INFO     | app:get_audio_source:61 | Using Streamlit microphone input.
+2026-06-29 20:56:54 | INFO     | app:main:346 | Audio received from user.
+2026-06-29 20:56:54 | INFO     | app:main:358 | User initiated assistant pipeline.
+2026-06-29 20:56:54 | INFO     | app:main:364 | Starting speech transcription.
+2026-06-29 20:56:55 | SUCCESS  | app:main:372 | Speech transcription completed successfully.
+2026-06-29 20:56:55 | INFO     | app:main:376 | Executing assistant pipeline.
+2026-06-29 20:56:55 | INFO     | app:run_assistant:150 | Starting assistant pipeline.
+2026-06-29 20:56:55 | INFO     | app:run_assistant:156 | Applying guardrails.
+2026-06-29 20:56:55 | INFO     | app:run_assistant:179 | Adding HumanMessage to conversation history.
+2026-06-29 20:56:55 | INFO     | app:run_assistant:185 | Running search decision model.
+2026-06-29 20:56:55 | INFO     | app:run_assistant:194 | Search Decision: %s | Reason: %s
+2026-06-29 20:56:55 | INFO     | app:run_assistant:223 | Generating response without web search.
+2026-06-29 20:56:56 | SUCCESS  | app:run_assistant:229 | LLM response generated successfully.
+2026-06-29 20:56:56 | INFO     | app:run_assistant:231 | Adding AIMessage to conversation history.
+2026-06-29 20:56:56 | INFO     | app:run_assistant:237 | Generating speech using ElevenLabs.
+2026-06-29 20:56:59 | SUCCESS  | app:run_assistant:254 | Speech generated successfully.
+2026-06-29 20:56:59 | INFO     | app:run_assistant:264 | Generating photorealistic avatar response.
+2026-06-29 20:56:59 | INFO     | avatar:create_avatar_video:119 | Creating Tavus avatar video request.
+2026-06-29 20:57:04 | SUCCESS  | avatar:create_avatar_video:134 | Avatar video request created successfully: e27b9d208b
+2026-06-29 20:57:04 | INFO     | avatar:create_avatar_video:135 | Avatar job e27b9d208b created with initial status: queued
+2026-06-29 20:57:04 | INFO     | avatar:wait_for_avatar_video:179 | Waiting for avatar job e27b9d208b. Poll interval: 5s | Timeout: 600s
+2026-06-29 20:57:04 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 1
+2026-06-29 20:57:04 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:57:05 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: queued | details: This request is currently queued. It should begin processing in a few minutes.
+2026-06-29 20:57:10 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 2
+2026-06-29 20:57:10 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:57:12 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:57:17 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 3
+2026-06-29 20:57:17 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:57:18 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:57:23 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 4
+2026-06-29 20:57:23 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:57:24 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:57:29 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 5
+2026-06-29 20:57:29 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:57:30 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:57:35 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 6
+2026-06-29 20:57:35 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:57:36 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:57:41 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 7
+2026-06-29 20:57:41 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:57:42 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:57:47 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 8
+2026-06-29 20:57:47 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:57:49 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:57:54 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 9
+2026-06-29 20:57:54 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:57:55 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:58:00 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 10
+2026-06-29 20:58:00 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:58:01 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:58:06 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 11
+2026-06-29 20:58:06 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:58:07 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:58:12 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 12
+2026-06-29 20:58:12 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:58:14 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:58:19 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 13
+2026-06-29 20:58:19 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:58:20 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:58:25 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 14
+2026-06-29 20:58:25 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:58:26 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:58:31 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 15
+2026-06-29 20:58:31 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:58:32 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:58:37 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 16
+2026-06-29 20:58:37 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:58:38 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:58:43 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 17
+2026-06-29 20:58:43 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:58:45 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:58:50 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 18
+2026-06-29 20:58:50 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:58:51 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:58:56 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 19
+2026-06-29 20:58:56 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:58:57 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:59:02 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 20
+2026-06-29 20:59:02 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:59:03 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:59:08 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 21
+2026-06-29 20:59:08 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:59:09 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:59:14 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 22
+2026-06-29 20:59:14 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:59:16 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:59:21 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 23
+2026-06-29 20:59:21 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:59:22 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:59:27 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 24
+2026-06-29 20:59:27 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:59:28 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:59:33 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 25
+2026-06-29 20:59:33 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:59:34 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:59:39 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 26
+2026-06-29 20:59:39 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:59:41 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:59:46 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 27
+2026-06-29 20:59:46 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:59:47 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: generating | details: n/a
+2026-06-29 20:59:52 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job e27b9d208b attempt 28
+2026-06-29 20:59:52 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for e27b9d208b
+2026-06-29 20:59:53 | INFO     | avatar:get_avatar_video:164 | Avatar job e27b9d208b status: ready | details: Your request has processed successfully!
+2026-06-29 20:59:53 | SUCCESS  | avatar:wait_for_avatar_video:193 | Avatar job e27b9d208b completed successfully with status: ready
+2026-06-29 20:59:53 | INFO     | avatar:generate_avatar_response:230 | Avatar job e27b9d208b is ready. Downloading cached video from https://stream.mux.com/01S2FEpcVvlAU5KlEdJajk5pObTaOLfkvxV1s02yApCpo/high.mp4?download=e27b9d208b
+2026-06-29 20:59:53 | INFO     | video_cache:download_video_to_cache:22 | Caching avatar video e27b9d208b to assets\generated_video\e27b9d208b.mp4
+2026-06-29 20:59:56 | SUCCESS  | video_cache:download_video_to_cache:29 | Avatar video cached successfully at assets\generated_video\e27b9d208b.mp4
+2026-06-29 20:59:56 | SUCCESS  | app:run_assistant:277 | Avatar response generated successfully with video id e27b9d208b.
+2026-06-29 20:59:56 | SUCCESS  | app:run_assistant:289 | Assistant pipeline completed successfully.
+2026-06-29 20:59:56 | SUCCESS  | app:main:382 | Assistant pipeline executed successfully.
+2026-06-29 20:59:56 | INFO     | app:main:404 | Rendering search decision.
+2026-06-29 20:59:56 | INFO     | app:main:420 | Rendering conversation history.
+2026-06-29 20:59:56 | INFO     | app:main:440 | Rendering search results.
+2026-06-29 20:59:56 | INFO     | app:main:468 | Rendering audio response.
+2026-06-29 20:59:56 | SUCCESS  | app:main:562 | Voice AI Assistant rendered successfully.
+2026-06-29 21:01:51 | INFO     | app:main:308 | Starting Voice AI Assistant application.
+2026-06-29 21:01:51 | INFO     | app:main:313 | Initializing Streamlit session.
+2026-06-29 21:01:51 | INFO     | app:initialize_state:39 | Initializing Streamlit session state.
+2026-06-29 21:01:51 | SUCCESS  | app:initialize_state:45 | Session state initialized successfully.
+2026-06-29 21:01:51 | SUCCESS  | app:main:315 | Session initialized successfully.
+2026-06-29 21:01:51 | INFO     | app:main:317 | Rendering API configuration.
+2026-06-29 21:01:51 | INFO     | app:render_status:109 | Sarvam STT: Configured
+2026-06-29 21:01:51 | INFO     | app:render_status:109 | Groq LLM: Configured
+2026-06-29 21:01:51 | INFO     | app:render_status:109 | Tavily: Configured
+2026-06-29 21:01:51 | INFO     | app:render_status:109 | ElevenLabs: Configured
+2026-06-29 21:01:51 | INFO     | app:render_status:109 | Avatar: Configured
+2026-06-29 21:01:51 | INFO     | app:render_status:109 | Avatar Replica: Configured
+2026-06-29 21:01:51 | SUCCESS  | app:main:332 | API configuration rendered successfully.
+2026-06-29 21:01:51 | INFO     | app:main:340 | Initializing audio source.
+2026-06-29 21:01:51 | INFO     | app:get_audio_source:55 | Detecting available audio input source.
+2026-06-29 21:01:51 | INFO     | app:get_audio_source:61 | Using Streamlit microphone input.
+2026-06-29 21:01:51 | INFO     | app:main:404 | Rendering search decision.
+2026-06-29 21:01:51 | INFO     | app:main:420 | Rendering conversation history.
+2026-06-29 21:01:51 | INFO     | app:main:440 | Rendering search results.
+2026-06-29 21:01:51 | INFO     | app:main:468 | Rendering audio response.
+2026-06-29 21:01:51 | SUCCESS  | app:main:562 | Voice AI Assistant rendered successfully.
+2026-06-29 21:02:07 | INFO     | app:main:308 | Starting Voice AI Assistant application.
+2026-06-29 21:02:07 | INFO     | app:main:313 | Initializing Streamlit session.
+2026-06-29 21:02:07 | INFO     | app:initialize_state:39 | Initializing Streamlit session state.
+2026-06-29 21:02:07 | SUCCESS  | app:initialize_state:45 | Session state initialized successfully.
+2026-06-29 21:02:07 | SUCCESS  | app:main:315 | Session initialized successfully.
+2026-06-29 21:02:07 | INFO     | app:main:317 | Rendering API configuration.
+2026-06-29 21:02:07 | INFO     | app:render_status:109 | Sarvam STT: Configured
+2026-06-29 21:02:07 | INFO     | app:render_status:109 | Groq LLM: Configured
+2026-06-29 21:02:07 | INFO     | app:render_status:109 | Tavily: Configured
+2026-06-29 21:02:07 | INFO     | app:render_status:109 | ElevenLabs: Configured
+2026-06-29 21:02:07 | INFO     | app:render_status:109 | Avatar: Configured
+2026-06-29 21:02:07 | INFO     | app:render_status:109 | Avatar Replica: Configured
+2026-06-29 21:02:07 | SUCCESS  | app:main:332 | API configuration rendered successfully.
+2026-06-29 21:02:07 | INFO     | app:main:340 | Initializing audio source.
+2026-06-29 21:02:07 | INFO     | app:get_audio_source:55 | Detecting available audio input source.
+2026-06-29 21:02:07 | INFO     | app:get_audio_source:61 | Using Streamlit microphone input.
+2026-06-29 21:02:07 | INFO     | app:main:346 | Audio received from user.
+2026-06-29 21:02:07 | INFO     | app:main:404 | Rendering search decision.
+2026-06-29 21:02:07 | INFO     | app:main:420 | Rendering conversation history.
+2026-06-29 21:02:07 | INFO     | app:main:440 | Rendering search results.
+2026-06-29 21:02:07 | INFO     | app:main:468 | Rendering audio response.
+2026-06-29 21:02:07 | SUCCESS  | app:main:562 | Voice AI Assistant rendered successfully.
+2026-06-29 21:02:08 | INFO     | app:main:308 | Starting Voice AI Assistant application.
+2026-06-29 21:02:08 | INFO     | app:main:313 | Initializing Streamlit session.
+2026-06-29 21:02:08 | INFO     | app:initialize_state:39 | Initializing Streamlit session state.
+2026-06-29 21:02:08 | SUCCESS  | app:initialize_state:45 | Session state initialized successfully.
+2026-06-29 21:02:08 | SUCCESS  | app:main:315 | Session initialized successfully.
+2026-06-29 21:02:08 | INFO     | app:main:317 | Rendering API configuration.
+2026-06-29 21:02:08 | INFO     | app:render_status:109 | Sarvam STT: Configured
+2026-06-29 21:02:08 | INFO     | app:render_status:109 | Groq LLM: Configured
+2026-06-29 21:02:08 | INFO     | app:render_status:109 | Tavily: Configured
+2026-06-29 21:02:08 | INFO     | app:render_status:109 | ElevenLabs: Configured
+2026-06-29 21:02:08 | INFO     | app:render_status:109 | Avatar: Configured
+2026-06-29 21:02:08 | INFO     | app:render_status:109 | Avatar Replica: Configured
+2026-06-29 21:02:08 | SUCCESS  | app:main:332 | API configuration rendered successfully.
+2026-06-29 21:02:08 | INFO     | app:main:340 | Initializing audio source.
+2026-06-29 21:02:08 | INFO     | app:get_audio_source:55 | Detecting available audio input source.
+2026-06-29 21:02:08 | INFO     | app:get_audio_source:61 | Using Streamlit microphone input.
+2026-06-29 21:02:08 | INFO     | app:main:346 | Audio received from user.
+2026-06-29 21:02:08 | INFO     | app:main:358 | User initiated assistant pipeline.
+2026-06-29 21:02:08 | INFO     | app:main:364 | Starting speech transcription.
+2026-06-29 21:02:09 | SUCCESS  | app:main:372 | Speech transcription completed successfully.
+2026-06-29 21:02:09 | INFO     | app:main:376 | Executing assistant pipeline.
+2026-06-29 21:02:09 | INFO     | app:run_assistant:150 | Starting assistant pipeline.
+2026-06-29 21:02:09 | INFO     | app:run_assistant:156 | Applying guardrails.
+2026-06-29 21:02:09 | INFO     | app:run_assistant:179 | Adding HumanMessage to conversation history.
+2026-06-29 21:02:09 | INFO     | app:run_assistant:185 | Running search decision model.
+2026-06-29 21:02:10 | INFO     | app:run_assistant:194 | Search Decision: %s | Reason: %s
+2026-06-29 21:02:10 | INFO     | app:run_assistant:223 | Generating response without web search.
+2026-06-29 21:02:11 | SUCCESS  | app:run_assistant:229 | LLM response generated successfully.
+2026-06-29 21:02:11 | INFO     | app:run_assistant:231 | Adding AIMessage to conversation history.
+2026-06-29 21:02:11 | INFO     | app:run_assistant:237 | Generating speech using ElevenLabs.
+2026-06-29 21:02:14 | SUCCESS  | app:run_assistant:254 | Speech generated successfully.
+2026-06-29 21:02:14 | INFO     | app:run_assistant:264 | Generating photorealistic avatar response.
+2026-06-29 21:02:14 | INFO     | avatar:create_avatar_video:119 | Creating Tavus avatar video request.
+2026-06-29 21:02:19 | SUCCESS  | avatar:create_avatar_video:134 | Avatar video request created successfully: 87e01d703d
+2026-06-29 21:02:19 | INFO     | avatar:create_avatar_video:135 | Avatar job 87e01d703d created with initial status: queued
+2026-06-29 21:02:19 | INFO     | avatar:wait_for_avatar_video:179 | Waiting for avatar job 87e01d703d. Poll interval: 5s | Timeout: 600s
+2026-06-29 21:02:19 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 87e01d703d attempt 1
+2026-06-29 21:02:19 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 87e01d703d
+2026-06-29 21:02:20 | INFO     | avatar:get_avatar_video:164 | Avatar job 87e01d703d status: queued | details: This request is currently queued. It should begin processing in a few minutes.
+2026-06-29 21:02:25 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 87e01d703d attempt 2
+2026-06-29 21:02:25 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 87e01d703d
+2026-06-29 21:02:27 | INFO     | avatar:get_avatar_video:164 | Avatar job 87e01d703d status: generating | details: n/a
+2026-06-29 21:02:32 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 87e01d703d attempt 3
+2026-06-29 21:02:32 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 87e01d703d
+2026-06-29 21:02:33 | INFO     | avatar:get_avatar_video:164 | Avatar job 87e01d703d status: generating | details: n/a
+2026-06-29 21:02:38 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 87e01d703d attempt 4
+2026-06-29 21:02:38 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 87e01d703d
+2026-06-29 21:02:39 | INFO     | avatar:get_avatar_video:164 | Avatar job 87e01d703d status: generating | details: n/a
+2026-06-29 21:02:44 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 87e01d703d attempt 5
+2026-06-29 21:02:44 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 87e01d703d
+2026-06-29 21:02:45 | INFO     | avatar:get_avatar_video:164 | Avatar job 87e01d703d status: generating | details: n/a
+2026-06-29 21:02:50 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 87e01d703d attempt 6
+2026-06-29 21:02:50 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 87e01d703d
+2026-06-29 21:02:51 | INFO     | avatar:get_avatar_video:164 | Avatar job 87e01d703d status: generating | details: n/a
+2026-06-29 21:02:56 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 87e01d703d attempt 7
+2026-06-29 21:02:56 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 87e01d703d
+2026-06-29 21:02:58 | INFO     | avatar:get_avatar_video:164 | Avatar job 87e01d703d status: generating | details: n/a
+2026-06-29 21:03:03 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 87e01d703d attempt 8
+2026-06-29 21:03:03 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 87e01d703d
+2026-06-29 21:03:04 | INFO     | avatar:get_avatar_video:164 | Avatar job 87e01d703d status: generating | details: n/a
+2026-06-29 21:03:09 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 87e01d703d attempt 9
+2026-06-29 21:03:09 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 87e01d703d
+2026-06-29 21:03:10 | INFO     | avatar:get_avatar_video:164 | Avatar job 87e01d703d status: generating | details: n/a
+2026-06-29 21:03:15 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 87e01d703d attempt 10
+2026-06-29 21:03:15 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 87e01d703d
+2026-06-29 21:03:16 | INFO     | avatar:get_avatar_video:164 | Avatar job 87e01d703d status: generating | details: n/a
+2026-06-29 21:03:21 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 87e01d703d attempt 11
+2026-06-29 21:03:21 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 87e01d703d
+2026-06-29 21:03:22 | INFO     | avatar:get_avatar_video:164 | Avatar job 87e01d703d status: generating | details: n/a
+2026-06-29 21:03:27 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 87e01d703d attempt 12
+2026-06-29 21:03:27 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 87e01d703d
+2026-06-29 21:03:29 | INFO     | avatar:get_avatar_video:164 | Avatar job 87e01d703d status: generating | details: n/a
+2026-06-29 21:03:34 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 87e01d703d attempt 13
+2026-06-29 21:03:34 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 87e01d703d
+2026-06-29 21:03:35 | INFO     | avatar:get_avatar_video:164 | Avatar job 87e01d703d status: generating | details: n/a
+2026-06-29 21:03:40 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 87e01d703d attempt 14
+2026-06-29 21:03:40 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 87e01d703d
+2026-06-29 21:03:41 | INFO     | avatar:get_avatar_video:164 | Avatar job 87e01d703d status: generating | details: n/a
+2026-06-29 21:03:46 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 87e01d703d attempt 15
+2026-06-29 21:03:46 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 87e01d703d
+2026-06-29 21:03:47 | INFO     | avatar:get_avatar_video:164 | Avatar job 87e01d703d status: generating | details: n/a
+2026-06-29 21:03:52 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 87e01d703d attempt 16
+2026-06-29 21:03:52 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 87e01d703d
+2026-06-29 21:03:53 | INFO     | avatar:get_avatar_video:164 | Avatar job 87e01d703d status: generating | details: n/a
+2026-06-29 21:03:58 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 87e01d703d attempt 17
+2026-06-29 21:03:58 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 87e01d703d
+2026-06-29 21:04:00 | INFO     | avatar:get_avatar_video:164 | Avatar job 87e01d703d status: generating | details: n/a
+2026-06-29 21:04:05 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 87e01d703d attempt 18
+2026-06-29 21:04:05 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 87e01d703d
+2026-06-29 21:04:06 | INFO     | avatar:get_avatar_video:164 | Avatar job 87e01d703d status: generating | details: n/a
+2026-06-29 21:04:11 | INFO     | avatar:wait_for_avatar_video:188 | Polling avatar job 87e01d703d attempt 19
+2026-06-29 21:04:11 | INFO     | avatar:get_avatar_video:145 | Checking Tavus avatar video status for 87e01d703d
+2026-06-29 21:04:12 | INFO     | avatar:get_avatar_video:164 | Avatar job 87e01d703d status: ready | details: Your request has processed successfully!
+2026-06-29 21:04:12 | SUCCESS  | avatar:wait_for_avatar_video:193 | Avatar job 87e01d703d completed successfully with status: ready
+2026-06-29 21:04:12 | INFO     | avatar:generate_avatar_response:230 | Avatar job 87e01d703d is ready. Downloading cached video from https://stream.mux.com/RqIxzPLJk7ZEO01Y00zAR00UG4fEQAOs4DBI5Dne9p1Pho/high.mp4?download=87e01d703d
+2026-06-29 21:04:12 | INFO     | video_cache:download_video_to_cache:22 | Caching avatar video 87e01d703d to assets\generated_video\87e01d703d.mp4
+2026-06-29 21:04:15 | SUCCESS  | video_cache:download_video_to_cache:29 | Avatar video cached successfully at assets\generated_video\87e01d703d.mp4
+2026-06-29 21:04:15 | SUCCESS  | app:run_assistant:277 | Avatar response generated successfully with video id 87e01d703d.
+2026-06-29 21:04:15 | SUCCESS  | app:run_assistant:289 | Assistant pipeline completed successfully.
+2026-06-29 21:04:15 | SUCCESS  | app:main:382 | Assistant pipeline executed successfully.
+2026-06-29 21:04:15 | INFO     | app:main:404 | Rendering search decision.
+2026-06-29 21:04:15 | INFO     | app:main:420 | Rendering conversation history.
+2026-06-29 21:04:15 | INFO     | app:main:440 | Rendering search results.
+2026-06-29 21:04:15 | INFO     | app:main:468 | Rendering audio response.
+2026-06-29 21:04:15 | SUCCESS  | app:main:562 | Voice AI Assistant rendered successfully.

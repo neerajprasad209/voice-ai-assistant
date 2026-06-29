@@ -1,5 +1,6 @@
 import streamlit as st
 
+from src.avatar import generate_avatar_response, get_avatar_status
 from src.chat_history import ChatHistoryManager
 from src.custom_exception import VoiceAssistantException
 from src.guardrails import apply_guardrails
@@ -18,11 +19,17 @@ from src.utils import check_api_connectivity, get_configuration_status
 STATE_DEFAULTS = {
     "chat_history": ChatHistoryManager(),
     "assistant_audio": None,
+    "assistant_audio_path": None,
+    "assistant_video": None,
+    "assistant_video_url": None,
     "tts_error": None,
     "search_results": [],
     "search_used": False,
     "search_reason": "",
     "processing_error": "",
+    "avatar_error": None,
+    "avatar_job_id": None,
+    "avatar_status": "idle",
 }
 
 
@@ -119,11 +126,17 @@ def reset_assistant_state() -> None:
 
         st.session_state["chat_history"] = ChatHistoryManager()
         st.session_state["assistant_audio"] = None
+        st.session_state["assistant_audio_path"] = None
+        st.session_state["assistant_video"] = None
+        st.session_state["assistant_video_url"] = None
         st.session_state["tts_error"] = None
         st.session_state["search_results"] = []
         st.session_state["search_used"] = False
         st.session_state["search_reason"] = ""
         st.session_state["processing_error"] = ""
+        st.session_state["avatar_error"] = None
+        st.session_state["avatar_job_id"] = None
+        st.session_state["avatar_status"] = "idle"
 
         logger.success("Assistant session state reset successfully.")
 
@@ -225,13 +238,53 @@ def run_assistant(query: str) -> None:
 
         last_ai = history.get_last_ai_message()
 
-        st.session_state["assistant_audio"] = synthesize_speech(
+        audio_bytes, audio_path = synthesize_speech(
             last_ai.content
         )
+        st.session_state["assistant_audio"] = audio_bytes
+        st.session_state["assistant_audio_path"] = audio_path
+
+        if st.session_state["assistant_audio_path"]:
+            st.caption(
+                st.session_state["assistant_audio_path"]
+            )
 
         st.session_state["tts_error"] = None
 
         logger.success("Speech generated successfully.")
+
+        avatar_status = get_avatar_status()
+
+        st.session_state["assistant_video"] = None
+        st.session_state["assistant_video_url"] = None
+        st.session_state["avatar_error"] = None
+        st.session_state["avatar_job_id"] = None
+
+        if avatar_status.configured:
+            logger.info("Generating photorealistic avatar response.")
+            st.session_state["avatar_status"] = "processing"
+
+            try:
+                avatar_result = generate_avatar_response(last_ai.content)
+                st.session_state["assistant_video"] = avatar_result.local_path
+                st.session_state["assistant_video_url"] = (
+                    avatar_result.hosted_url
+                    or avatar_result.stream_url
+                    or avatar_result.download_url
+                )
+                st.session_state["avatar_job_id"] = avatar_result.video_id
+                st.session_state["avatar_status"] = avatar_result.status
+                logger.success(
+                    "Avatar response generated successfully with video id {}.",
+                    avatar_result.video_id,
+                )
+            except Exception as avatar_exc:
+                st.session_state["avatar_status"] = "failed"
+                st.session_state["avatar_error"] = str(avatar_exc)
+                logger.warning("Avatar generation unavailable: {}", avatar_exc)
+        else:
+            st.session_state["avatar_status"] = "disabled"
+            st.session_state["avatar_error"] = avatar_status.message
 
         logger.success("Assistant pipeline completed successfully.")
 
@@ -241,6 +294,11 @@ def run_assistant(query: str) -> None:
 
         st.session_state["assistant_audio"] = None
         st.session_state["tts_error"] = str(e)
+        st.session_state["assistant_video"] = None
+        st.session_state["assistant_video_url"] = None
+        st.session_state["avatar_error"] = None
+        st.session_state["avatar_job_id"] = None
+        st.session_state["avatar_status"] = "failed"
 
         raise VoiceAssistantException(e)
 
@@ -252,25 +310,24 @@ def main() -> None:
     try:
 
         st.set_page_config(page_title="Voice AI Assistant")
-
         logger.info("Initializing Streamlit session.")
-
         initialize_state()
-
         logger.success("Session initialized successfully.")
-
         st.title("Voice AI Assistant")
-
         logger.info("Rendering API configuration.")
-
         st.subheader("API Configuration")
-
         for status in get_configuration_status():
             render_status(
                 status.provider,
                 status.configured,
                 status.message,
             )
+        avatar_config = get_avatar_status()
+        render_status(
+            "Avatar Replica",
+            avatar_config.configured,
+            avatar_config.message,
+        )
 
         logger.success("API configuration rendered successfully.")
 
@@ -291,7 +348,7 @@ def main() -> None:
             st.audio(audio_value)
 
             button_label = (
-                "Generate Audio"
+                "Generate Response"
                 if audio_source == "microphone"
                 else "Transcribe Audio"
             )
@@ -436,6 +493,40 @@ def main() -> None:
             st.warning(
                 f"Speech synthesis unavailable: {tts_error}"
             )
+
+        avatar_video = st.session_state.get(
+            "assistant_video"
+        )
+        avatar_video_url = st.session_state.get(
+            "assistant_video_url"
+        )
+        avatar_status_text = st.session_state.get(
+            "avatar_status",
+            "idle",
+        )
+        avatar_error = st.session_state.get(
+            "avatar_error"
+        )
+
+        if avatar_video or avatar_video_url or avatar_status_text != "idle":
+            st.subheader("Avatar Response")
+            st.caption(
+                f"Avatar status: {avatar_status_text}"
+            )
+
+            if avatar_video:
+                st.video(avatar_video)
+            elif avatar_video_url and avatar_status_text.lower() == "ready":
+                st.video(avatar_video_url)
+
+            if avatar_error and avatar_status_text != "disabled":
+                st.warning(
+                    f"Avatar generation unavailable: {avatar_error}"
+                )
+            elif avatar_error and avatar_status_text == "disabled":
+                st.info(
+                    f"Avatar not enabled: {avatar_error}"
+                )
 
         processing_error = st.session_state.get(
             "processing_error"

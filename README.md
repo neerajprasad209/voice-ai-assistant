@@ -155,6 +155,18 @@ User queries are never sent to Text-to-Speech.
 
 ---
 
+## Photorealistic Avatar
+
+When Tavus is configured, the assistant can also generate a
+photorealistic talking-head video for each AI reply.
+
+The avatar feature is optional.
+
+If avatar generation is unavailable, the assistant still responds
+with text and audio.
+
+---
+
 ## Guardrails
 
 Unsafe prompts are blocked before reaching the LLM.
@@ -435,6 +447,18 @@ TAVILY_API_KEY=
 ELEVENLABS_API_KEY=
 
 ELEVENLABS_VOICE_ID=
+
+TAVUS_API_KEY=
+
+TAVUS_REPLICA_ID=
+
+AVATAR_PROVIDER=tavus
+
+AVATAR_POLL_INTERVAL_SECONDS=5
+
+AVATAR_TIMEOUT_SECONDS=600
+
+TAVUS_FAST_MODE=false
 ```
 
 ---

@@ -3,12 +3,17 @@ import os
 from dotenv import load_dotenv
 from elevenlabs.client import ElevenLabs
 
+from pathlib import Path
+
+AUDIO_DIR = Path("assets/generated_audio")
+AUDIO_DIR.mkdir(parents=True, exist_ok=True)
+
 
 DEFAULT_VOICE_ID = "JBFqnCBsd6RMkjVDRZzb"
 DEFAULT_MODEL_ID = "eleven_v3"
 
 
-def synthesize_speech(text: str, *, voice_id: str | None = None) -> bytes:
+def synthesize_speech(text: str,*,voice_id: str | None = None,save_audio: bool = True,) -> tuple[bytes, str | None]:
     """Convert response text to playable MP3 audio with ElevenLabs."""
     cleaned_text = text.strip()
     if not cleaned_text:
@@ -28,7 +33,14 @@ def synthesize_speech(text: str, *, voice_id: str | None = None) -> bytes:
     )
 
     audio_bytes = b"".join(audio_stream)
-    if not audio_bytes:
-        raise RuntimeError("ElevenLabs returned empty audio.")
+    
+    audio_path = None
 
-    return audio_bytes
+    if save_audio:
+
+        audio_path = AUDIO_DIR / "assistant_response.mp3"
+
+        with open(audio_path, "wb") as f:
+            f.write(audio_bytes)
+
+    return audio_bytes, str(audio_path)

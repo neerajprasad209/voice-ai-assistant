@@ -1,0 +1,131 @@
+2026-06-29 16:47:56 | ERROR    | avatar:generate_avatar_response:156 | Avatar generation failed.
+Traceback (most recent call last):
+
+  File "C:\Users\NEERAJ\AppData\Roaming\uv\python\cpython-3.12.10-windows-x86_64-none\Lib\threading.py", line 1032, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x00000123682C5940>
+    └ <Thread(ScriptRunner.scriptThread, started 13992)>
+  File "C:\Users\NEERAJ\AppData\Roaming\uv\python\cpython-3.12.10-windows-x86_64-none\Lib\threading.py", line 1075, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x00000123682C5620>
+    └ <Thread(ScriptRunner.scriptThread, started 13992)>
+  File "C:\Users\NEERAJ\AppData\Roaming\uv\python\cpython-3.12.10-windows-x86_64-none\Lib\threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ScriptRunner.scriptThread, started 13992)>
+    │    │        │    └ ()
+    │    │        └ <Thread(ScriptRunner.scriptThread, started 13992)>
+    │    └ <bound method ScriptRunner._run_script_thread of ScriptRunner(_session_id='45e60f0c-419d-4697-911b-d271197f1b60', _main_scrip...
+    └ <Thread(ScriptRunner.scriptThread, started 13992)>
+  File "D:\ML_project_PW\voice-ai-assistant\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 419, in _run_script_thread
+    self._run_script(request.rerun_data)
+    │    │           │       └ <property object at 0x000001236A987E20>
+    │    │           └ ScriptRequest(type=<ScriptRequestType.RERUN: 'RERUN'>, _rerun_data=RerunData(widget_states=widgets {
+    │    │               id: "$$ID-9b2f0107f4d0...
+    │    └ <function ScriptRunner._run_script at 0x000001236AD268E0>
+    └ ScriptRunner(_session_id='45e60f0c-419d-4697-911b-d271197f1b60', _main_script_path='D:\\ML_project_PW\\voice-ai-assistant\\ap...
+  File "D:\ML_project_PW\voice-ai-assistant\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 814, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+        │                             │             └ ScriptRunContext(session_id='45e60f0c-419d-4697-911b-d271197f1b60', _enqueue=<bound method ScriptRunner._enqueue_forward_msg ...
+        │                             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x000001236BC11F80>
+        └ <function exec_func_with_error_handling at 0x000001236AAA1C60>
+  File "D:\ML_project_PW\voice-ai-assistant\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x000001236BC11F80>
+  File "D:\ML_project_PW\voice-ai-assistant\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 789, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+         │     │      └ <member '__dict__' of 'module' objects>
+         │     └ <module '__main__' from 'D:\\ML_project_PW\\voice-ai-assistant\\app.py'>
+         └ <code object <module> at 0x000001236C065E20, file "D:\ML_project_PW\voice-ai-assistant\app.py", line 1>
+
+  File "D:\ML_project_PW\voice-ai-assistant\app.py", line 577, in <module>
+    main()
+    └ <function main at 0x000001236D114C20>
+
+  File "D:\ML_project_PW\voice-ai-assistant\app.py", line 380, in main
+    run_assistant(transcript)
+    │             └ 'What is the weather in New York?'
+    └ <function run_assistant at 0x000001236D114CC0>
+
+  File "D:\ML_project_PW\voice-ai-assistant\app.py", line 268, in run_assistant
+    avatar_result = generate_avatar_response(last_ai.content)
+                    │                        │       └ 'According to the search results, the current weather in New York on June 29, 2026, is as follows:\n\n* Temperature: 30°C (86...
+                    │                        └ AIMessage(content='According to the search results, the current weather in New York on June 29, 2026, is as follows:\n\n* Tem...
+                    └ <function generate_avatar_response at 0x000001236D4CFA60>
+
+> File "D:\ML_project_PW\voice-ai-assistant\src\avatar.py", line 140, in generate_avatar_response
+    completed_job = wait_for_avatar_video(job.video_id)
+                    │                     │   └ '01bb0db97f'
+                    │                     └ AvatarJob(video_id='01bb0db97f', status='queued', hosted_url='https://tavus.video/01bb0db97f', download_url=None, stream_url=...
+                    └ <function wait_for_avatar_video at 0x000001236D4CF9C0>
+
+  File "D:\ML_project_PW\voice-ai-assistant\src\avatar.py", line 132, in wait_for_avatar_video
+    raise TimeoutError(
+
+TimeoutError: Avatar generation timed out after 90 seconds for video 01bb0db97f.
+2026-06-29 17:16:35 | ERROR    | avatar:wait_for_avatar_video:167 | Avatar job 574a3c2fd6 timed out after 600 seconds. Last known status: unknown
+2026-06-29 17:16:35 | ERROR    | avatar:generate_avatar_response:202 | Avatar generation failed.
+Traceback (most recent call last):
+
+  File "C:\Users\NEERAJ\AppData\Roaming\uv\python\cpython-3.12.10-windows-x86_64-none\Lib\threading.py", line 1032, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x0000021461575940>
+    └ <Thread(ScriptRunner.scriptThread, started 2344)>
+  File "C:\Users\NEERAJ\AppData\Roaming\uv\python\cpython-3.12.10-windows-x86_64-none\Lib\threading.py", line 1075, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x0000021461575620>
+    └ <Thread(ScriptRunner.scriptThread, started 2344)>
+  File "C:\Users\NEERAJ\AppData\Roaming\uv\python\cpython-3.12.10-windows-x86_64-none\Lib\threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ScriptRunner.scriptThread, started 2344)>
+    │    │        │    └ ()
+    │    │        └ <Thread(ScriptRunner.scriptThread, started 2344)>
+    │    └ <bound method ScriptRunner._run_script_thread of ScriptRunner(_session_id='8ebcf02a-1ff3-4691-a0d4-94ce214bed98', _main_scrip...
+    └ <Thread(ScriptRunner.scriptThread, started 2344)>
+  File "D:\ML_project_PW\voice-ai-assistant\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 419, in _run_script_thread
+    self._run_script(request.rerun_data)
+    │    │           │       └ <property object at 0x0000021463B97E20>
+    │    │           └ ScriptRequest(type=<ScriptRequestType.RERUN: 'RERUN'>, _rerun_data=RerunData(widget_states=widgets {
+    │    │               id: "$$ID-9b2f0107f4d0...
+    │    └ <function ScriptRunner._run_script at 0x0000021463F368E0>
+    └ ScriptRunner(_session_id='8ebcf02a-1ff3-4691-a0d4-94ce214bed98', _main_script_path='D:\\ML_project_PW\\voice-ai-assistant\\ap...
+  File "D:\ML_project_PW\voice-ai-assistant\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 814, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+        │                             │             └ ScriptRunContext(session_id='8ebcf02a-1ff3-4691-a0d4-94ce214bed98', _enqueue=<bound method ScriptRunner._enqueue_forward_msg ...
+        │                             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x0000021466374A40>
+        └ <function exec_func_with_error_handling at 0x0000021463CB1C60>
+  File "D:\ML_project_PW\voice-ai-assistant\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x0000021466374A40>
+  File "D:\ML_project_PW\voice-ai-assistant\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 789, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+         │     │      └ <member '__dict__' of 'module' objects>
+         │     └ <module '__main__' from 'D:\\ML_project_PW\\voice-ai-assistant\\app.py'>
+         └ <code object <module> at 0x0000021465216840, file "D:\ML_project_PW\voice-ai-assistant\app.py", line 1>
+
+  File "D:\ML_project_PW\voice-ai-assistant\app.py", line 577, in <module>
+    main()
+    └ <function main at 0x0000021464E222A0>
+
+  File "D:\ML_project_PW\voice-ai-assistant\app.py", line 380, in main
+    run_assistant(transcript)
+    │             └ 'What is the current weather report in Bhilai?'
+    └ <function run_assistant at 0x0000021463B87920>
+
+  File "D:\ML_project_PW\voice-ai-assistant\app.py", line 268, in run_assistant
+    avatar_result = generate_avatar_response(last_ai.content)
+                    │                        │       └ 'As of 12:00 PM 29 June 2026, the current weather in Bhilai is Patchy rain nearby with a temperature of 37°C (feels like 40°C...
+                    │                        └ AIMessage(content='As of 12:00 PM 29 June 2026, the current weather in Bhilai is Patchy rain nearby with a temperature of 37°...
+                    └ <function generate_avatar_response at 0x000002146676F880>
+
+> File "D:\ML_project_PW\voice-ai-assistant\src\avatar.py", line 181, in generate_avatar_response
+    completed_job = wait_for_avatar_video(job.video_id)
+                    │                     │   └ '574a3c2fd6'
+                    │                     └ AvatarJob(video_id='574a3c2fd6', status='queued', hosted_url='https://tavus.video/574a3c2fd6', download_url=None, stream_url=...
+                    └ <function wait_for_avatar_video at 0x000002146676F7E0>
+
+  File "D:\ML_project_PW\voice-ai-assistant\src\avatar.py", line 173, in wait_for_avatar_video
+    raise TimeoutError(
+
+TimeoutError: Avatar generation timed out after 600 seconds for video 574a3c2fd6.
