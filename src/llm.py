@@ -256,7 +256,7 @@ def generate_direct_response(
         system_prompt=DIRECT_SYSTEM_PROMPT,
         model=CHAT_MODEL,
         temperature=0.2,
-        max_tokens=400,
+        max_tokens=100,
     )
 
 
