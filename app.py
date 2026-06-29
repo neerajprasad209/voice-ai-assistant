@@ -261,10 +261,6 @@ def main() -> None:
 
         st.title("Voice AI Assistant")
 
-        st.caption(
-            "Phases 2 to 4: speech input, live web search, Groq reasoning, and ElevenLabs speech output."
-        )
-
         logger.info("Rendering API configuration.")
 
         st.subheader("API Configuration")
